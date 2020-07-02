@@ -13,10 +13,13 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::group(['middleware'=>['throttle'], 'namespace'=>'Api\V1'], function(){
+Route::group(['namespace'=>'Api\V1'], function(){
 
-    Route::group(['middleware'=>['auth:api']], function() {
-        Route::resource('users/transactions', 'UserTransactionController');
-    });
+//    Route::group(['middleware'=>['auth:api']], function() {
+//        Route::resource('users/transactions', 'UserTransactionController');
+//    });
+
+    Route::get('products', 'ProductController@getList');
 
 });
+

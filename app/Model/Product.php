@@ -8,6 +8,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class Product extends Model
 {
 
+    protected $casts = [
+      'ingredients'=>'array'
+    ];
+
     /**
      * @return BelongsToMany
      */
