@@ -21,6 +21,7 @@ class CreateCategoriesTable extends Migration
             $table->string('description');
             $table->string('type');
             $table->integer('level');
+            $table->string('image');
             $table->timestamps();
         });
     }

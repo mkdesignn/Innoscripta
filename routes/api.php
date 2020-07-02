@@ -20,6 +20,7 @@ Route::group(['namespace'=>'Api\V1'], function(){
 //    });
 
     Route::get('products', 'ProductController@getList');
+    Route::get('categories', 'CategoryController@getList');
 
 });
 

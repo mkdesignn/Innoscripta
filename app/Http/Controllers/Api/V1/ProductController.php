@@ -29,7 +29,7 @@ class ProductController extends Controller
      * @SWG\Get(path="/products",
      *     tags={"products"},
      *     summary="Get the list of the products",
-     *     operationId="index",
+     *     operationId="productList",
      *     produces={"application/json"},
      *     @SWG\Parameter(
      *      description="Category",

@@ -6,13 +6,36 @@
     },
     "basePath": "/api",
     "paths": {
+        "/categories": {
+            "get": {
+                "tags": [
+                    "categories"
+                ],
+                "summary": "Get the list of the categories",
+                "operationId": "categoryList",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request supplied"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
         "/products": {
             "get": {
                 "tags": [
                     "products"
                 ],
                 "summary": "Get the list of the products",
-                "operationId": "index",
+                "operationId": "productList",
                 "produces": [
                     "application/json"
                 ],
