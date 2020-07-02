@@ -24,7 +24,7 @@ class ProductListRequest extends ApiFormRequest
     public function rules()
     {
         return [
-            'category'=> 'string|required|exists:categories,name',
+            'category'=> 'integer|required|exists:categories,id',
             'size'=>'integer|min:1',
             'page'=>'integer|min:0'
         ];

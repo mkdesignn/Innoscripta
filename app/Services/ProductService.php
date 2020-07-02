@@ -39,7 +39,7 @@ class ProductService
         $products = $this
             ->product
             ->whereHas('category', function($query) use($request){
-                !$request->has('category') ?: $query->where('name', $request->category);
+                !$request->has('category') ?: $query->where('id', $request->category);
             })
             ->limit($size)->skip($page)
             ->get();
