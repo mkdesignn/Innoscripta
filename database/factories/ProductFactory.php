@@ -13,11 +13,19 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(App\User::class, function (Faker $faker) {
+$factory->define(\App\Model\Product::class, function (Faker $faker) {
+
+
+
     return [
         'name' => $faker->name,
-        'email' => $faker->unique()->safeEmail,
-        'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-        'remember_token' => Str::random(10)
+        'avatar'=>'bbq-chicken-pizza.jpeg',
+        'content'=>$faker->text,
+        'prepare_time'=>random_int(20, 40),
+        'weight'=>array_random([300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400]),
+        'price'=>random_int(18, 40),
+        'status'=>'approved',
+        'quantity'=>20,
+        'visible'=>true
     ];
 });

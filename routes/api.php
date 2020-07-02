@@ -13,6 +13,10 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::group(['middleware'=>['throttle'], 'namespace'=>'Api\V1'], function(){
+
+    Route::group(['middleware'=>['auth:api']], function() {
+        Route::resource('users/transactions', 'UserTransactionController');
+    });
+
 });
