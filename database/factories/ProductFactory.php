@@ -16,7 +16,6 @@ use Faker\Generator as Faker;
 $factory->define(\App\Model\Product::class, function (Faker $faker) {
 
 
-
     return [
         'name' => $faker->name,
         'avatar'=>'bbq-chicken-pizza.jpeg',
@@ -26,6 +25,7 @@ $factory->define(\App\Model\Product::class, function (Faker $faker) {
         'price'=>random_int(18, 40),
         'status'=>'approved',
         'quantity'=>20,
-        'visible'=>true
+        'visible'=>true,
+        'ingredients'=>json_encode(['test'])
     ];
 });

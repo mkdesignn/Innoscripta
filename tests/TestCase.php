@@ -3,6 +3,8 @@
 namespace Tests;
 
 use App\Model\Admin;
+use App\Model\Category;
+use App\Model\Product;
 use App\Model\User;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Str;
@@ -49,7 +51,7 @@ abstract class TestCase extends BaseTestCase
     const TRANSACTIONS = 'transactions';
 
     // Endpoints
-    const API_USER = 'api/users';
+    const API_PRODUCT = 'api/products';
     const API_USER_TRANSACTION = 'api/users/transactions';
 
     // Auth
@@ -62,6 +64,18 @@ abstract class TestCase extends BaseTestCase
     protected function getCreatedUser(){
 
         return $this->user;
+    }
+
+    public function createProduct(Category $category = null){
+
+        $product = factory(Product::class)->create();
+
+        if($category !== null){
+            $product->category()->attach($category->id);
+        }
+
+        return $product;
+
     }
 
 }

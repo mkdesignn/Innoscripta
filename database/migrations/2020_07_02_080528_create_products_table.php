@@ -21,7 +21,7 @@ class CreateProductsTable extends Migration
             $table->text('content');
             $table->string('avatar');
             $table->string('prepare_time');
-            $table->json('weight');
+            $table->integer('weight');
             $table->json('ingredients');
             $table->text('price');
             $table->integer('quantity');

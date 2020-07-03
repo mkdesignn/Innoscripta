@@ -16,14 +16,6 @@ use Faker\Generator as Faker;
 $factory->define(\App\Model\Category::class, function (Faker $faker) {
 
 
-//    $table->increments('id');
-//    $table->integer('parent_id');
-//    $table->string('name');
-//    $table->string('slug');
-//    $table->string('description');
-//    $table->string('type');
-//    $table->integer('level');
-
     $name = $faker->name;
     return [
         'parent_id' => 0,
@@ -31,6 +23,7 @@ $factory->define(\App\Model\Category::class, function (Faker $faker) {
         'slug' => snake_case($name),
         'description' => $faker->text,
         'level'=>0,
-        'type'=>'product'
+        'type'=>'product',
+        'image'=>$faker->imageUrl()
     ];
 });
