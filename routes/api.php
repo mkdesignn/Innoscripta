@@ -18,6 +18,6 @@ Route::group(['namespace'=>'Api\V1', 'middleware' => 'cors'], function(){
     Route::get('products', 'ProductController@getList');
     Route::get('categories', 'CategoryController@getList');
 
-
+    Route::post('orders', 'OrderController@storeOrder');
 });
 

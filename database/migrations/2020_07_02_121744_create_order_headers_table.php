@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateOrderHeaderTable extends Migration
+class CreateOrderHeadersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,14 @@ class CreateOrderHeaderTable extends Migration
      */
     public function up()
     {
-        Schema::create('order_header', function (Blueprint $table) {
+        Schema::create('order_headers', function (Blueprint $table) {
+            $table->increments('id');
             $table->integer('code');
-            $table->integer('customer_id');
-            $table->string('issue_date');
-            $table->text('address_id');
+            $table->string('customer_name');
+            $table->string('customer_surname');
+            $table->text('customer_address');
             $table->enum('payment_type', ['credit', 'transfer' ,'bank']);
-            $table->string('received_at');
+            $table->string('received_at')->nullable();
             $table->integer('deliver_price');
             $table->enum('status', ['paid','cancelled','waiting','arrived']);
             $table->timestamps();

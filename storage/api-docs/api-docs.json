@@ -29,6 +29,64 @@
                 }
             }
         },
+        "/orders": {
+            "post": {
+                "tags": [
+                    "products"
+                ],
+                "summary": "Store a new order",
+                "operationId": "storeOrder",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "order",
+                        "in": "body",
+                        "description": "Request body",
+                        "schema": {
+                            "properties": {
+                                "customer_address": {
+                                    "type": "string"
+                                },
+                                "customer_name": {
+                                    "type": "string"
+                                },
+                                "customer_surname": {
+                                    "type": "string"
+                                },
+                                "products": {
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "id": {
+                                                "type": "integer"
+                                            },
+                                            "quantity": {
+                                                "type": "integer"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request supplied"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
         "/products": {
             "get": {
                 "tags": [

@@ -23,7 +23,7 @@ class CreateProductsTable extends Migration
             $table->string('prepare_time');
             $table->integer('weight');
             $table->json('ingredients');
-            $table->text('price');
+            $table->integer('price');
             $table->integer('quantity');
             $table->enum('status', ['approved','rejected','pending']);
             $table->boolean('visible');

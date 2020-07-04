@@ -25,7 +25,6 @@ class ProductController extends Controller
 
 
     /**
-     *
      * @SWG\Get(path="/products",
      *     tags={"products"},
      *     summary="Get the list of the products",
