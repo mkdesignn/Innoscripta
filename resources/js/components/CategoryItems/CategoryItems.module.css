@@ -1,0 +1,25 @@
+.container {
+  width: 100px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.image {
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgba(94, 91, 91, 0.24);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.name {
+  margin: 10px auto 5px;
+  color: rgba(94, 91, 91, 0.24);
+}
