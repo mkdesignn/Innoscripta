@@ -34,6 +34,6 @@ class CreateOrderHeadersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('order_header');
+        Schema::dropIfExists('order_headers');
     }
 }
