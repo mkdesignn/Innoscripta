@@ -24,7 +24,7 @@ $factory->define(\App\Model\Product::class, function (Faker $faker) {
         'weight'=>array_random([300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400]),
         'price'=>random_int(18, 40),
         'status'=>'approved',
-        'quantity'=>20,
+        'quantity'=>1,
         'visible'=>true,
         'ingredients'=>json_encode(['test'])
     ];

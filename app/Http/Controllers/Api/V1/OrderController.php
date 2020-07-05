@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api\V1;
 use App\Enum\PaymentType;
 use App\Enum\Status;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\GetOrdersRequest;
 use App\Http\Requests\ProductListRequest;
 use App\Http\Requests\StoreOrderRequest;
 use App\Model\OrderArticle;
@@ -33,7 +34,7 @@ class OrderController extends Controller
 
     /**
      * @SWG\Post(path="/orders",
-     *     tags={"products"},
+     *     tags={"orders"},
      *     summary="Store a new order",
      *     operationId="storeOrder",
      *     produces={"application/json"},
@@ -90,5 +91,48 @@ class OrderController extends Controller
         return $this->orderService->storeOrder($request);
     }
 
+
+    /**
+     * @SWG\Get(path="/orders",
+     *     tags={"orders"},
+     *     summary="get the history of orders",
+     *     operationId="getOrders",
+     *     produces={"application/json"},
+     *     @SWG\Parameter(
+     *      description="size",
+     *      in="query",
+     *      name="size",
+     *      required=false,
+     *      type="integer",
+     *      default="5"
+     *     ),
+     *     @SWG\Parameter(
+     *      description="page",
+     *      in="query",
+     *      name="page",
+     *      required=false,
+     *      type="integer",
+     *      default="0"
+     *     ),
+     *     @SWG\Response(
+     *         response=200,
+     *         description="Successful operation",
+     *     ),
+     *     @SWG\Response(
+     *         response=400,
+     *         description="Invalid request supplied"
+     *     ),
+     *     @SWG\Response(
+     *         response=500,
+     *         description="Internal server error"
+     *     )
+     * )
+     * @param GetOrdersRequest $request
+     * @return AnonymousResourceCollection
+     */
+    public function getList(GetOrdersRequest $request)
+    {
+        return $this->orderService->getList($request);
+    }
 
 }

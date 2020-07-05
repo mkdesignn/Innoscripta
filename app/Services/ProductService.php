@@ -41,7 +41,7 @@ class ProductService
             ->whereHas('category', function($query) use($request){
                 !$request->has('category') ?: $query->where('id', $request->category);
             })
-            ->limit($size)->skip($page)
+            ->limit($size)->skip($page * $size)
             ->get();
 
         return ProductResource::collection($products);

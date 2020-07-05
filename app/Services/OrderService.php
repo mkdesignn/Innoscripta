@@ -5,6 +5,7 @@ namespace App\Services;
 
 use App\Enum\PaymentType;
 use App\Enum\Status;
+use App\Http\Requests\GetOrdersRequest;
 use App\Http\Requests\ProductListRequest;
 use App\Http\Requests\StoreOrderRequest;
 use App\Http\Requests\StoreUserRequest;
@@ -67,6 +68,14 @@ class OrderService
 
 
         return new OrderResource($createdOrder);
+    }
+
+    public function getList(GetOrdersRequest $request)
+    {
+        $page = $request->has('page') ? $request->page : 0;
+        $size = $request->has('size') ? $request->size : 5;
+
+        return OrderResource::collection($this->orderHeader->skip($page * $size)->limit($size)->get());
     }
 
 }

@@ -15,4 +15,8 @@ class OrderArticle extends Model
     public function product(){
         return $this->hasOne(Product::class, 'id', 'product_id');
     }
+
+    public function header(){
+        return $this->belongsTo(OrderHeader::class, 'order_header_id', 'id');
+    }
 }

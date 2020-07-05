@@ -7,6 +7,8 @@ use App\Enum\Status;
 use App\Http\Resources\OrderResource;
 use App\Http\Resources\ProductResource;
 use App\Model\Category;
+use App\Model\OrderArticle;
+use App\Model\OrderHeader;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 
@@ -147,6 +149,40 @@ class OrderTest extends TestCase
                             ['product_name'=>$product->name, 'price'=>$product->price, 'quantity'=>1, 'weight'=>$product->weight]
                         ]
                     ]
+            ]);
+    }
+
+    /**
+     * @test
+     *
+     * @return void
+     */
+    public function getList_should_return_success_if_all_goes_well()
+    {
+        $orderArticle = factory(OrderArticle::class)->create();
+        $orderHeader = $orderArticle->header;
+
+        $this->json('get', 'api/orders')
+            ->assertStatus(self::HTTP_OK)
+            ->assertJson([
+                'data'=> [[
+                    'id' => $orderHeader->id,
+                    'code'=>$orderHeader->code,
+                    'customer_name'=>$orderHeader->customer_name,
+                    'customer_surname'=>$orderHeader->customer_surname,
+                    'customer_address'=>$orderHeader->customer_address,
+                    'payment_type'=>PaymentType::CREDIT,
+                    'deliver_price'=>env('DELIVERY_PRICE'),
+                    'status'=>Status::PAID,
+                    'articles'=>[
+                        [
+                            'product_name'=>$orderArticle->product->name,
+                            'price'=>(string)$orderArticle->price,
+                            'quantity'=>'1',
+                            'weight'=>(string)$orderArticle->weight
+                        ]
+                    ]
+                ]]
             ]);
     }
 }

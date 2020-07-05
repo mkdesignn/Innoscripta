@@ -30,9 +30,48 @@
             }
         },
         "/orders": {
+            "get": {
+                "tags": [
+                    "orders"
+                ],
+                "summary": "get the history of orders",
+                "operationId": "getOrders",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "size",
+                        "required": false,
+                        "type": "integer",
+                        "default": "5"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "page",
+                        "required": false,
+                        "type": "integer",
+                        "default": "0"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request supplied"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            },
             "post": {
                 "tags": [
-                    "products"
+                    "orders"
                 ],
                 "summary": "Store a new order",
                 "operationId": "storeOrder",
