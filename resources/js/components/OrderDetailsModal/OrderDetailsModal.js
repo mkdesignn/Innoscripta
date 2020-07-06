@@ -54,12 +54,12 @@ const OrderDetailsModal = (props) => {
                 </div>
               </div>
               <div className={classes.price}>
-                <h3>{props.activeOrderItem.price} $</h3>
+                <h3>$ {props.activeOrderItem.price} </h3>
               </div>
             </div>
             <div className={classes.buttonContainer}>
               <Button
-                title={"ADD TO CART"}
+                title={props.editMode ? "SAVE CHANGES" : "ADD TO CART"}
                 onClick={props.onAddToCartClick}
                 width={"70%"}
               />

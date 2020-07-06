@@ -3,17 +3,28 @@ import classes from "./CardOrder.module.css";
 
 const CardOrder = (props) => {
   return (
-    <div className={classes.container}>
+    <div
+      onClick={() => props.onCardOrderClick(props.item)}
+      className={classes.container}
+      style={{
+        cursor: props.editable ? "pointer" : "not-allowed",
+        border: props.editable ? "2px solid #ffda6c" : "none",
+      }}
+    >
       <div className={classes.image}>
-        <img src={props.img} alt={props.name} />
+        <img src={props.item.avatar} alt={props.item.name} />
       </div>
       <div className={classes.title}>
-        <p>{props.name}</p>
-        <p>{props.price}</p>
+        <p>{props.item.name}</p>
+        <p style={{ color: "rgba(94, 91, 91, 0.24)" }}>$ {props.item.price}</p>
       </div>
-      <div className={classes.count}></div>
-      <div className={classes.totlaPrice}></div>
-      <div className={classes.image}></div>
+      <div className={classes.count}>
+        <p style={{ fontSize: "16px", fontWeight: 100 }}>&#x2716;</p>{" "}
+        {props.item.quantity}
+      </div>
+      <div className={classes.totalPrice}>
+        $ {props.item.quantity * props.item.price}
+      </div>
     </div>
   );
 };

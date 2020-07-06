@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.container p {
+  font-size: 30px;
+  margin: 0;
+}
+.cardsContainer {
+  width: 100%;
+  height: 60vh;
+  overflow: auto;
+  margin-top: 15px;
+  border-bottom: 1px dashed;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+.factorPrice {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.factorPrice p {
+  font-size: 15px;
+  font-weight: bold;
+}

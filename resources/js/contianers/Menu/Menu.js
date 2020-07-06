@@ -13,6 +13,9 @@ class Menu extends Component {
     catData: null,
     orderData: null,
     count: 1,
+    orders: [],
+    editMode: false,
+    editable: false,
   };
 
   componentDidMount = () => {
@@ -52,8 +55,17 @@ class Menu extends Component {
     });
   };
   onOrderClickHandler = (item) => {
-    console.log(item.id);
-    this.setState({ showOrderDetailsModal: true, activeOrderItem: item });
+    this.setState({
+      showOrderDetailsModal: true,
+      activeOrderItem: this.state.orders.find(
+        (order) => order.name === item.name
+      )
+        ? this.state.orders.find((order) => order.name === item.name)
+        : item,
+      editMode: this.state.orders.find((order) => order.name === item.name)
+        ? true
+        : false,
+    });
   };
   onCloseOrderDetailsModalHandler = () => {
     this.setState({ showOrderDetailsModal: false });
@@ -67,6 +79,21 @@ class Menu extends Component {
             ? 0
             : this.state.activeOrderItem.quantity - 1,
       },
+      orders: this.state.orders.find(
+        (order) => order.name === this.state.activeOrderItem.name
+      )
+        ? this.state.orders.map((item) =>
+            item.name !== this.state.activeOrderItem.name
+              ? item
+              : {
+                  ...item,
+                  quantity:
+                    this.state.activeOrderItem.quantity === 0
+                      ? 0
+                      : this.state.activeOrderItem.quantity - 1,
+                }
+          )
+        : [...this.state.orders],
     });
   };
   onPlusClickHandler = () => {
@@ -75,7 +102,44 @@ class Menu extends Component {
         ...this.state.activeOrderItem,
         quantity: this.state.activeOrderItem.quantity + 1,
       },
+      orders: this.state.orders.find(
+        (order) => order.name === this.state.activeOrderItem.name
+      )
+        ? this.state.orders.map((item) =>
+            item.name !== this.state.activeOrderItem.name
+              ? item
+              : {
+                  ...item,
+                  quantity: this.state.activeOrderItem.quantity + 1,
+                }
+          )
+        : [...this.state.orders],
     });
+  };
+  onAddToCartClickHandler = () => {
+    this.setState({
+      orders: this.state.orders.find(
+        (order) => order.name === this.state.activeOrderItem.name
+      )
+        ? [...this.state.orders]
+        : [...this.state.orders, this.state.activeOrderItem],
+      showOrderDetailsModal: false,
+      editMode: false,
+      editable: false,
+    });
+  };
+  onCardOrderClickHandler = (item) => {
+    this.state.editable &&
+      this.setState({
+        activeOrderItem: item,
+        showOrderDetailsModal: true,
+        editMode: this.state.orders.find((order) => order.name === item.name)
+          ? true
+          : false,
+      });
+  };
+  onEditClickHandler = () => {
+    this.setState({ editable: this.state.orders.length > 0 ? true : false });
   };
   render() {
     return (
@@ -90,14 +154,19 @@ class Menu extends Component {
           />
         </div>
         <div className={classes.right}>
-          <OrderList />
+          <OrderList
+            onOrderListNextClick={this.onOrderListNextClickHandler}
+            onEditClick={this.onEditClickHandler}
+            onCardOrderClick={this.onCardOrderClickHandler}
+            orders={this.state.orders.filter((order) => order.quantity > 0)}
+            editable={this.state.editable}
+          />
         </div>
         <OrderDetailsModal
+          editMode={this.state.editMode}
           onMinusClick={this.onMinusClickHandler}
           onPlusClick={this.onPlusClickHandler}
-          activeOrderItem={
-            this.state.activeOrderItem && this.state.activeOrderItem
-          }
+          activeOrderItem={this.state.activeOrderItem}
           show={this.state.showOrderDetailsModal}
           close={this.onCloseOrderDetailsModalHandler}
           onAddToCartClick={this.onAddToCartClickHandler}

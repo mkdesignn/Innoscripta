@@ -4,7 +4,7 @@ import classes from "./Button.module.css";
 const Button = (props) => {
   return (
     <div
-      ocClick={props.onClick}
+      onClick={props.onClick}
       style={{ width: props.width }}
       className={classes.container}
     >

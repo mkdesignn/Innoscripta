@@ -7,6 +7,7 @@ const MenuCategory = (props) => {
     props.catData &&
     props.catData.map((item) => (
       <CategoryItems
+        key={item.id}
         activeId={props.activeId}
         onCatClick={props.onCatClick}
         item={item}
