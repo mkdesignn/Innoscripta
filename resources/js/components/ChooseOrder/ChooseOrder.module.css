@@ -1,0 +1,16 @@
+.container {
+  margin-top: 20px;
+}
+.container p {
+  font-size: 30px;
+  margin: 10px auto;
+}
+.orderItemsContainer {
+  width: 100%;
+  height: 40vh;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

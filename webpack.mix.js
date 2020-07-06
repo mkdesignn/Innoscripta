@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+const path = require('path');
 require('laravel-mix-react-css-modules');
 
 /*
@@ -13,5 +14,10 @@ require('laravel-mix-react-css-modules');
  */
 
 mix.react('resources/js/index.js', 'public/js')
+    .webpackConfig({
+        resolve: {
+            modules: [path.resolve(__dirname, 'resources/assets/js/modules'), 'node_modules']
+        }
+    })
    // .sass('resources/sass/app.scss', 'public/css')
     .reactCSSModules();
