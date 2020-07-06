@@ -2,11 +2,9 @@ import React from "react";
 import classes from "./OrderItems.module.css";
 
 const OrderItems = (props) => {
-
   return (
     <div
-      data-testid={'orderItems'}
-      onClick={() => props.onOrderClick(props.item.id)}
+      onClick={() => props.onOrderClick(props.item)}
       className={classes.container}
     >
       <div className={classes.image}>
