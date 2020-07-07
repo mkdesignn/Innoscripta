@@ -34,12 +34,14 @@ class CorsMiddleware
         $this->events->listen(RequestHandled::class, function (RequestHandled $event) {
             $event->response->headers->set('Access-Control-Expose-Headers', 'Authorization');
             $event->response->headers->set('Access-Control-Allow-Origin', '*');
+            $event->response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         });
 
         $response = $next($request);
         $response->headers->set('Access-Control-Expose-Headers', 'Authorization');
         $response->headers->set('Access-Control-Allow-Origin', '*');
         $response->headers->set('AllowOrigin', '*');
+        $response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
 
         return $response;
     }
