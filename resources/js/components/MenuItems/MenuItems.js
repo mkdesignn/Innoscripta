@@ -14,6 +14,7 @@ const MenuItems = (props) => {
       <ChooseOrder
         orderData={props.orderData}
         onOrderClick={props.onOrderClick}
+        orderLoading={props.orderLoading}
       />
     </div>
   );

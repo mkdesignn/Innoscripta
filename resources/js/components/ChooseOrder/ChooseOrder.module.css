@@ -15,3 +15,10 @@
   flex-wrap: wrap;
   overflow: auto;
 }
+.loading {
+  width: 95%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

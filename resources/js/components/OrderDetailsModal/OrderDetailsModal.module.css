@@ -88,6 +88,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 10px;
 }
 .plus {
   width: 30px;
@@ -114,8 +116,4 @@
   color: white;
   font-weight: 700;
   user-select: none;
-}
-.buttonContainer {
-  position: absolute;
-  bottom: 10px;
 }

@@ -4,6 +4,8 @@ import MenuItems from "../../components/MenuItems/MenuItems";
 import OrderList from "../../components/OrderList/OrderList";
 import OrderDetailsModal from "../../components/OrderDetailsModal/OrderDetailsModal";
 import axios from "axios";
+import ProfileDataModal from "../../components/ProfileDataModal/ProfileDataModal";
+import ClipLoader from "react-spinners/ClipLoader";
 
 class Menu extends Component {
   state = {
@@ -16,6 +18,13 @@ class Menu extends Component {
     orders: [],
     editMode: false,
     editable: false,
+    showProfileDataModal: false,
+    name: "",
+    address: "",
+    surname: "",
+    loading: true,
+    orderLoading: false,
+    profileModalLoading: false,
   };
 
   componentDidMount = () => {
@@ -30,7 +39,7 @@ class Menu extends Component {
             url: `http://innoscripta-app.herokuapp.com/api/products?category=${this.state.activeId}&size=10&page=0`,
           })
             .then((respnse) => {
-              this.setState({ orderData: respnse.data.data });
+              this.setState({ orderData: respnse.data.data, loading: false });
               console.log(respnse.data);
               console.log(respnse);
             })
@@ -41,13 +50,13 @@ class Menu extends Component {
   };
 
   onCatClickHandler = (id) => {
-    this.setState({ activeId: id }, () => {
+    this.setState({ activeId: id, orderLoading: true }, () => {
       axios({
         method: "get",
         url: `http://innoscripta-app.herokuapp.com/api/products?category=${id}&size=10&page=0`,
       })
         .then((respnse) => {
-          this.setState({ orderData: respnse.data.data });
+          this.setState({ orderData: respnse.data.data, orderLoading: false });
           console.log(respnse.data);
           console.log(respnse);
         })
@@ -57,12 +66,10 @@ class Menu extends Component {
   onOrderClickHandler = (item) => {
     this.setState({
       showOrderDetailsModal: true,
-      activeOrderItem: this.state.orders.find(
-        (order) => order.name === item.name
-      )
-        ? this.state.orders.find((order) => order.name === item.name)
+      activeOrderItem: this.state.orders.find((order) => order.id === item.id)
+        ? this.state.orders.find((order) => order.id === item.id)
         : item,
-      editMode: this.state.orders.find((order) => order.name === item.name)
+      editMode: this.state.orders.find((order) => order.id === item.id)
         ? true
         : false,
     });
@@ -80,10 +87,10 @@ class Menu extends Component {
             : this.state.activeOrderItem.quantity - 1,
       },
       orders: this.state.orders.find(
-        (order) => order.name === this.state.activeOrderItem.name
+        (order) => order.id === this.state.activeOrderItem.id
       )
         ? this.state.orders.map((item) =>
-            item.name !== this.state.activeOrderItem.name
+            item.id !== this.state.activeOrderItem.id
               ? item
               : {
                   ...item,
@@ -103,10 +110,10 @@ class Menu extends Component {
         quantity: this.state.activeOrderItem.quantity + 1,
       },
       orders: this.state.orders.find(
-        (order) => order.name === this.state.activeOrderItem.name
+        (order) => order.id === this.state.activeOrderItem.id
       )
         ? this.state.orders.map((item) =>
-            item.name !== this.state.activeOrderItem.name
+            item.id !== this.state.activeOrderItem.id
               ? item
               : {
                   ...item,
@@ -119,7 +126,7 @@ class Menu extends Component {
   onAddToCartClickHandler = () => {
     this.setState({
       orders: this.state.orders.find(
-        (order) => order.name === this.state.activeOrderItem.name
+        (order) => order.id === this.state.activeOrderItem.id
       )
         ? [...this.state.orders]
         : [...this.state.orders, this.state.activeOrderItem],
@@ -133,7 +140,7 @@ class Menu extends Component {
       this.setState({
         activeOrderItem: item,
         showOrderDetailsModal: true,
-        editMode: this.state.orders.find((order) => order.name === item.name)
+        editMode: this.state.orders.find((order) => order.id === item.id)
           ? true
           : false,
       });
@@ -141,17 +148,60 @@ class Menu extends Component {
   onEditClickHandler = () => {
     this.setState({ editable: this.state.orders.length > 0 ? true : false });
   };
+  onOrderListNextClickHandler = () => {
+    this.setState({ showProfileDataModal: true });
+  };
+  onCloseProfileDataModalHandler = () => {
+    this.setState({ showProfileDataModal: false });
+  };
+  onChangeHandler = (event, name) => {
+    this.setState({
+      [event.target.name]: event.target.value,
+    });
+  };
+  onProfileDataOrderClickHandler = () => {
+    this.setState({ profileModalLoading: true });
+    axios({
+      method: "post",
+      url: `https://innoscripta-app.herokuapp.com/api/orders`,
+      data: {
+        customer_address: this.state.address,
+        customer_name: this.state.name,
+        customer_surname: this.state.surname,
+        products: this.state.orders,
+      },
+    })
+      .then((respnse) => {
+        this.setState({ profileModalLoading: false });
+        console.log(respnse.data);
+        console.log(respnse);
+      })
+      .catch((error) => console.log(error));
+  };
   render() {
     return (
       <div className={classes.container}>
         <div className={classes.left}>
-          <MenuItems
-            catData={this.state.catData}
-            orderData={this.state.orderData}
-            onOrderClick={this.onOrderClickHandler}
-            onCatClick={this.onCatClickHandler}
-            activeId={this.state.activeId}
-          />
+          {!this.state.loading ? (
+            <MenuItems
+              catData={this.state.catData}
+              orderData={this.state.orderData}
+              onOrderClick={this.onOrderClickHandler}
+              onCatClick={this.onCatClickHandler}
+              activeId={this.state.activeId}
+              orderLoading={this.state.orderLoading}
+            />
+          ) : (
+            <div className={classes.loading}>
+              <ClipLoader
+                // css={override}
+                sizeUnit={"px"}
+                size={50}
+                color={"rgb(228, 132, 13)"}
+                loading={this.state.loading}
+              />
+            </div>
+          )}{" "}
         </div>
         <div className={classes.right}>
           <OrderList
@@ -170,6 +220,13 @@ class Menu extends Component {
           show={this.state.showOrderDetailsModal}
           close={this.onCloseOrderDetailsModalHandler}
           onAddToCartClick={this.onAddToCartClickHandler}
+        />
+        <ProfileDataModal
+          loading={this.state.profileModalLoading}
+          onProfileDataOrderClick={this.onProfileDataOrderClickHandler}
+          onChangeHandler={this.onChangeHandler}
+          show={this.state.showProfileDataModal}
+          close={this.onCloseProfileDataModalHandler}
         />
       </div>
     );

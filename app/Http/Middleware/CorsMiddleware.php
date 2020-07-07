@@ -30,13 +30,6 @@ class CorsMiddleware
     public function handle($request, Closure $next)
     {
 
-      // we will need this for dingo exceptions
-        $this->events->listen(RequestHandled::class, function (RequestHandled $event) {
-            $event->response->headers->set('Access-Control-Expose-Headers', 'Authorization');
-            $event->response->headers->set('Access-Control-Allow-Origin', '*');
-            $event->response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-        });
-
         $response = $next($request);
         $response->headers->set('Access-Control-Expose-Headers', 'Authorization');
         $response->headers->set('Access-Control-Allow-Origin', '*');

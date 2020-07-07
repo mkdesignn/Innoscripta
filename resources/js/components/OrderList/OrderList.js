@@ -10,7 +10,7 @@ const OrderList = (props) => {
     props.orders.map((item) => (
       <CardOrder
         onCardOrderClick={props.onCardOrderClick}
-        key={item.name}
+        key={item.id}
         item={item}
         editable={props.editable}
       />
