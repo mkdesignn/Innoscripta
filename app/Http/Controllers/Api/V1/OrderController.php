@@ -138,7 +138,6 @@ class OrderController extends Controller
 
 
     /**
-     *
      * @SWG\Get(path="/pre-order",
      *     tags={"orders"},
      *     summary="Get the necessary information before order",

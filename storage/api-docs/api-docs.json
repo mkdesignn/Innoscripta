@@ -126,6 +126,29 @@
                 }
             }
         },
+        "/pre-order": {
+            "get": {
+                "tags": [
+                    "orders"
+                ],
+                "summary": "Get the necessary information before order",
+                "operationId": "PreOrder",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request supplied"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
         "/products": {
             "get": {
                 "tags": [
