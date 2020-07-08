@@ -75,7 +75,9 @@ class OrderService
         $page = $request->has('page') ? $request->page : 0;
         $size = $request->has('size') ? $request->size : 5;
 
-        return OrderResource::collection($this->orderHeader->skip($page * $size)->limit($size)->get());
+        return OrderResource::collection(
+            $this->orderHeader->skip($page * $size)->limit($size)->orderBy('id', 'desc')->get()
+        );
     }
 
 }

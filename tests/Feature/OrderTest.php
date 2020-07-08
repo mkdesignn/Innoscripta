@@ -194,7 +194,8 @@ class OrderTest extends TestCase
      */
     public function preOrder_should_return_specific_results()
     {
-        dd($this->json('get', 'api/pre-order')
-            ->getContent());
+        $this->json('get', 'api/pre-order')
+            ->assertStatus(self::HTTP_OK)
+            ->assertJson(['data'=>['delivery_price'=>env('DELIVERY_PRICE')]]);
     }
 }
