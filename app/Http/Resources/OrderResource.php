@@ -25,7 +25,7 @@ class OrderResource extends JsonResource
             'deliver_price' => $this->deliver_price,
             'status' => $this->status,
             'articles'=> ArticleResource::collection($this->articles),
-            'created_at'=>$this->created_at
+            'created_at'=>$this->created_at->toDateTimeString()
         ];
     }
 }

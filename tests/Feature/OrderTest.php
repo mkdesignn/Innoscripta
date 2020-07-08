@@ -174,6 +174,7 @@ class OrderTest extends TestCase
                     'payment_type'=>PaymentType::CREDIT,
                     'deliver_price'=>env('DELIVERY_PRICE'),
                     'status'=>Status::PAID,
+                    'created_at'=>now()->toDateTimeString(),
                     'articles'=>[
                         [
                             'product_name'=>$orderArticle->product->name,
