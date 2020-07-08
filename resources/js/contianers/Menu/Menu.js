@@ -34,13 +34,13 @@ class Menu extends Component {
   componentDidMount = () => {
     axios({
       method: "get",
-      url: "http://innoscripta-app.herokuapp.com/api/categories",
+      url: "https://innoscripta-app.herokuapp.com/api/categories",
     })
       .then((respnse) => {
         this.setState({ catData: respnse.data.data }, () => {
           axios({
             method: "get",
-            url: `http://innoscripta-app.herokuapp.com/api/products?category=${this.state.activeId}&size=10&page=0`,
+            url: `https://innoscripta-app.herokuapp.com/api/products?category=${this.state.activeId}&size=10&page=0`,
           })
             .then((respnse) => {
               this.setState({ orderData: respnse.data.data, loading: false });
@@ -57,7 +57,7 @@ class Menu extends Component {
     this.setState({ activeId: id, orderLoading: true }, () => {
       axios({
         method: "get",
-        url: `http://innoscripta-app.herokuapp.com/api/products?category=${id}&size=10&page=0`,
+        url: `https://innoscripta-app.herokuapp.com/api/products?category=${id}&size=10&page=0`,
       })
         .then((respnse) => {
           this.setState({ orderData: respnse.data.data, orderLoading: false });

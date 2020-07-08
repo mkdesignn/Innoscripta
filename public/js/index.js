@@ -40100,14 +40100,14 @@ var Menu = /*#__PURE__*/function (_Component) {
     _defineProperty(_assertThisInitialized(_this), "componentDidMount", function () {
       (0, _axios2["default"])({
         method: "get",
-        url: "http://innoscripta-app.herokuapp.com/api/categories"
+        url: "https://innoscripta-app.herokuapp.com/api/categories"
       }).then(function (respnse) {
         _this.setState({
           catData: respnse.data.data
         }, function () {
           (0, _axios2["default"])({
             method: "get",
-            url: "http://innoscripta-app.herokuapp.com/api/products?category=".concat(_this.state.activeId, "&size=10&page=0")
+            url: "https://innoscripta-app.herokuapp.com/api/products?category=".concat(_this.state.activeId, "&size=10&page=0")
           }).then(function (respnse) {
             _this.setState({
               orderData: respnse.data.data,
@@ -40132,7 +40132,7 @@ var Menu = /*#__PURE__*/function (_Component) {
       }, function () {
         (0, _axios2["default"])({
           method: "get",
-          url: "http://innoscripta-app.herokuapp.com/api/products?category=".concat(id, "&size=10&page=0")
+          url: "https://innoscripta-app.herokuapp.com/api/products?category=".concat(id, "&size=10&page=0")
         }).then(function (respnse) {
           _this.setState({
             orderData: respnse.data.data,
