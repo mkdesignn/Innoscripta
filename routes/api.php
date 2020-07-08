@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::group(['namespace'=>'Api\V1', 'middleware' => 'cors'], function(){
+Route::group(['namespace'=>'Api\V1'], function(){
 
     Route::get('products', 'ProductController@getList');
     Route::get('categories', 'CategoryController@getList');

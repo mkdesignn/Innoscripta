@@ -24,7 +24,8 @@ class OrderResource extends JsonResource
             'payment_type' => $this->payment_type,
             'deliver_price' => $this->deliver_price,
             'status' => $this->status,
-            'articles'=> ArticleResource::collection($this->articles)
+            'articles'=> ArticleResource::collection($this->articles),
+            'created_at'=>$this->created_at
         ];
     }
 }

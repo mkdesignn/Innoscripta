@@ -6,6 +6,7 @@ import OrderDetailsModal from "../../components/OrderDetailsModal/OrderDetailsMo
 import axios from "axios";
 import ProfileDataModal from "../../components/ProfileDataModal/ProfileDataModal";
 import ClipLoader from "react-spinners/ClipLoader";
+import NextErrorModal from "../../components/NextErrorModal/NextErrorModal";
 
 class Menu extends Component {
   state = {
@@ -25,6 +26,9 @@ class Menu extends Component {
     loading: true,
     orderLoading: false,
     profileModalLoading: false,
+    showNextErrorModal: false,
+    succsessOrder: false,
+    errors: "",
   };
 
   componentDidMount = () => {
@@ -149,10 +153,31 @@ class Menu extends Component {
     this.setState({ editable: this.state.orders.length > 0 ? true : false });
   };
   onOrderListNextClickHandler = () => {
-    this.setState({ showProfileDataModal: true });
+    this.setState({
+      showProfileDataModal:
+        this.state.orders.filter((item) => item.quantity !== 0).length > 0
+          ? true
+          : false,
+      showNextErrorModal:
+        this.state.orders.filter((item) => item.quantity !== 0).length === 0
+          ? true
+          : false,
+    });
   };
   onCloseProfileDataModalHandler = () => {
-    this.setState({ showProfileDataModal: false });
+    this.setState({
+      showProfileDataModal: false,
+      succsessOrder: false,
+      orders: [],
+      name: "",
+      surname: "",
+      address: "",
+    });
+  };
+  onCloseErrorProfileDataModalHandler = () => {
+    this.setState({
+      errors: "",
+    });
   };
   onChangeHandler = (event, name) => {
     this.setState({
@@ -172,11 +197,20 @@ class Menu extends Component {
       },
     })
       .then((respnse) => {
-        this.setState({ profileModalLoading: false });
+        this.setState({ profileModalLoading: false, succsessOrder: true });
         console.log(respnse.data);
         console.log(respnse);
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        this.setState({
+          errors: error.response.data.message,
+          profileModalLoading: false,
+        });
+        console.log(error.response.data.message);
+      });
+  };
+  onCloseNextErrorModalHandler = () => {
+    this.setState({ showNextErrorModal: false });
   };
   render() {
     return (
@@ -222,11 +256,18 @@ class Menu extends Component {
           onAddToCartClick={this.onAddToCartClickHandler}
         />
         <ProfileDataModal
+          errors={this.state.errors}
+          closeError={this.onCloseErrorProfileDataModalHandler}
+          succsessOrder={this.state.succsessOrder}
           loading={this.state.profileModalLoading}
           onProfileDataOrderClick={this.onProfileDataOrderClickHandler}
           onChangeHandler={this.onChangeHandler}
           show={this.state.showProfileDataModal}
           close={this.onCloseProfileDataModalHandler}
+        />
+        <NextErrorModal
+          show={this.state.showNextErrorModal}
+          close={this.onCloseNextErrorModalHandler}
         />
       </div>
     );

@@ -22,40 +22,61 @@ const ProfileDataModal = (props) => {
         </div>
         <div className={classes.bottom}>
           {!props.loading ? (
-            <>
-              <Input
-                name="name"
-                onChange={props.onChangeHandler}
-                type="text"
-                lable={"Name"}
-                placeholder={"Enter Your Name"}
-              />
-              <Input
-                name="surname"
-                onChange={props.onChangeHandler}
-                type="text"
-                lable={"Surname"}
-                placeholder={"Enter Your Surname"}
-              />
-              <Input
-                name="address"
-                onChange={props.onChangeHandler}
-                type="text"
-                lable={"Address"}
-                placeholder={"Enter Your Address"}
-              />
-              <div className={classes.buttonContainer}>
-                <Button
-                  title={"Order"}
-                  onClick={props.onProfileDataOrderClick}
-                  width={"70%"}
-                />
+            !props.succsessOrder ? (
+              props.errors && props.errors.length > 0 ? (
+                <div className={classes.successOrder}>
+                  <h4>{props.errors}</h4>
+                  <div className={classes.buttonContainer}>
+                    <Button
+                      title={"OK"}
+                      onClick={props.closeError}
+                      width={"30%"}
+                    />
+                  </div>
+                </div>
+              ) : (
+                <>
+                  <Input
+                    name="name"
+                    onChange={props.onChangeHandler}
+                    type="text"
+                    lable={"Name"}
+                    placeholder={"Enter Your Name"}
+                  />
+                  <Input
+                    name="surname"
+                    onChange={props.onChangeHandler}
+                    type="text"
+                    lable={"Surname"}
+                    placeholder={"Enter Your Surname"}
+                  />
+                  <Input
+                    name="address"
+                    onChange={props.onChangeHandler}
+                    type="text"
+                    lable={"Address"}
+                    placeholder={"Enter Your Address"}
+                  />
+                  <div className={classes.buttonContainer}>
+                    <Button
+                      title={"Order"}
+                      onClick={props.onProfileDataOrderClick}
+                      width={"70%"}
+                    />
+                  </div>
+                </>
+              )
+            ) : (
+              <div className={classes.successOrder}>
+                <h4>Your order has been completed successfully!</h4>
+                <div className={classes.buttonContainer}>
+                  <Button title={"OK"} onClick={props.close} width={"30%"} />
+                </div>
               </div>
-            </>
+            )
           ) : (
             <div className={classes.loading}>
               <ClipLoader
-                // css={override}
                 sizeUnit={"px"}
                 size={50}
                 color={"rgb(255, 218, 108)"}

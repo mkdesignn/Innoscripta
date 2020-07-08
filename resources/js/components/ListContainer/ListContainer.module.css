@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+
+  width: 90%;
+}
+.container a {
+  color: rgb(73, 102, 134);
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 90%;
+  overflow: hidden;
+  margin: 10px auto;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+.container a:hover,
+.container a:focus {
+  color: rgb(73, 102, 134);
+}
