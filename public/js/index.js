@@ -3859,6 +3859,30 @@ exports.locals = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/CardOrderHistory/CardOrderHistory.module.css":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/CardOrderHistory/CardOrderHistory.module.css ***!
+  \**************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".CardOrderHistory-module__container___15q3Z {\r\n  width: 90%;\r\n  height: 55px;\r\n  margin: 10px auto;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  align-items: center;\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n  border-radius: 20px;\r\n  box-shadow: 0px 0px 4px 1px #0000004a;\r\n}\r\n\r\n.CardOrderHistory-module__count___1Iufa {\r\n  width: 15%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  font-weight: 600px;\r\n}\r\n.CardOrderHistory-module__totalPrice___222qc {\r\n  width: 20%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  color: rgba(94, 91, 91, 0.24);\r\n}\r\n.CardOrderHistory-module__title___2Gu3_ {\r\n  width: 50%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: flex-start;\r\n  flex-direction: column;\r\n}\r\n\r\n.CardOrderHistory-module__title___2Gu3_ p {\r\n  font-size: 15px;\r\n  font-weight: 700;\r\n  line-height: 25px;\r\n  margin: 0;\r\n}\r\n", ""]);
+
+// exports
+exports.locals = {
+	"container": "CardOrderHistory-module__container___15q3Z",
+	"count": "CardOrderHistory-module__count___1Iufa",
+	"totalPrice": "CardOrderHistory-module__totalPrice___222qc",
+	"title": "CardOrderHistory-module__title___2Gu3_"
+};
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/CategoryItems/CategoryItems.module.css":
 /*!********************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/CategoryItems/CategoryItems.module.css ***!
@@ -3905,6 +3929,31 @@ exports.locals = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/HistoryItem/HistoryItem.module.css":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/HistoryItem/HistoryItem.module.css ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".HistoryItem-module__container___34FFX {\r\n  width: 80%;\r\n  height: 70px;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  background-color: white;\r\n  margin: 5px auto;\r\n  cursor: pointer;\r\n}\r\n.HistoryItem-module__container___34FFX:hover {\r\n  background-color: rgba(251, 236, 191, 0.65);\r\n}\r\n.HistoryItem-module__headerContainer___1OKEq {\r\n  width: 80%;\r\n  height: 60px;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  background-color: rgb(255, 218, 108);\r\n  margin: 5px auto;\r\n  font-size: 20px;\r\n  font-weight: bold;\r\n  color: white;\r\n}\r\n.HistoryItem-module__date___3oofZ,\r\n.HistoryItem-module__number___1ATmg,\r\n.HistoryItem-module__totalPrice___GQ3er {\r\n  width: 30%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+
+// exports
+exports.locals = {
+	"container": "HistoryItem-module__container___34FFX",
+	"headerContainer": "HistoryItem-module__headerContainer___1OKEq",
+	"date": "HistoryItem-module__date___3oofZ",
+	"number": "HistoryItem-module__number___1ATmg",
+	"totalPrice": "HistoryItem-module__totalPrice___GQ3er"
+};
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Input/Input.module.css":
 /*!****************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/Input/Input.module.css ***!
@@ -3939,7 +3988,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Layout-module__container___R4TQG {\r\n  width: 100%;\r\n  height: 100vh;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.Layout-module__side___1hIwB {\r\n  width: 10%;\r\n  height: 100vh;\r\n}\r\n.Layout-module__mainArea___2aDOf {\r\n  width: 90%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".Layout-module__container___R4TQG {\r\n  width: 100%;\r\n  height: 100vh;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.Layout-module__side___1hIwB {\r\n  width: 10%;\r\n  height: 100vh;\r\n}\r\n.Layout-module__mainArea___2aDOf {\r\n  width: 90%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: #fafafa;\r\n  overflow: hidden;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -4088,6 +4137,32 @@ exports.locals = {
 	"buttonContainer": "OrderDetailsModal-module__buttonContainer___2SzkL",
 	"plus": "OrderDetailsModal-module__plus___1rxzo",
 	"countNum": "OrderDetailsModal-module__countNum___24c48"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.module.css":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.module.css ***!
+  \******************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".OrderHistoryDetailsModal-module__container___1OrGx {\r\n  width: 100%;\r\n  height: 40vh;\r\n  overflow: auto;\r\n  margin: 20px auto;\r\n}\r\n.OrderHistoryDetailsModal-module__all___1emdw {\r\n  background-color: rgb(255, 218, 108);\r\n  width: 100%;\r\n  height: 100%;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  flex-direction: column;\r\n}\r\n.OrderHistoryDetailsModal-module__buttonContainer___1-Mjz {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  position: absolute;\r\n  bottom: 10px;\r\n}\r\n.OrderHistoryDetailsModal-module__top___2keY3 {\r\n  height: 15%;\r\n  font-size: 15px;\r\n  font-weight: bold;\r\n  line-height: 28px;\r\n}\r\n.OrderHistoryDetailsModal-module__bottom___23sBq,\r\n.OrderHistoryDetailsModal-module__top___2keY3 {\r\n  width: 100%;\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n  text-align: justify;\r\n}\r\n.OrderHistoryDetailsModal-module__bottom___23sBq {\r\n  height: 85%;\r\n  background-color: white;\r\n  border-top-left-radius: 20px;\r\n  border-top-right-radius: 20px;\r\n  border-bottom-right-radius: 10px;\r\n  border-bottom-left-radius: 10px;\r\n  position: relative;\r\n}\r\n.OrderHistoryDetailsModal-module__totalPrice___3Tm8y {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  padding: 10px 20px;\r\n  box-sizing: border-box;\r\n  border-top: 1px dashed black;\r\n}\r\n", ""]);
+
+// exports
+exports.locals = {
+	"container": "OrderHistoryDetailsModal-module__container___1OrGx",
+	"all": "OrderHistoryDetailsModal-module__all___1emdw",
+	"buttonContainer": "OrderHistoryDetailsModal-module__buttonContainer___1-Mjz",
+	"top": "OrderHistoryDetailsModal-module__top___2keY3",
+	"bottom": "OrderHistoryDetailsModal-module__bottom___23sBq",
+	"totalPrice": "OrderHistoryDetailsModal-module__totalPrice___3Tm8y"
 };
 
 /***/ }),
@@ -4251,6 +4326,29 @@ exports.locals = {
 	"left": "Menu-module__left___2ioQ6",
 	"right": "Menu-module__right___3SsI_",
 	"loading": "Menu-module__loading___1xGji"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/contianers/OrderHistory/OrderHistory.module.css":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./resources/js/contianers/OrderHistory/OrderHistory.module.css ***!
+  \******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".OrderHistory-module__container____mZwF,\r\n.OrderHistory-module__orderContainer___2MdJh {\r\n  width: 100%;\r\n  padding: 10px;\r\n}\r\n.OrderHistory-module__container____mZwF {\r\n  height: 100vh;\r\n  overflow: hidden;\r\n}\r\n\r\n.OrderHistory-module__orderContainer___2MdJh {\r\n  height: 70vh;\r\n  overflow: auto;\r\n}\r\n.OrderHistory-module__loading___2HqIU {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+
+// exports
+exports.locals = {
+	"container": "OrderHistory-module__container____mZwF",
+	"orderContainer": "OrderHistory-module__orderContainer___2MdJh",
+	"loading": "OrderHistory-module__loading___2HqIU"
 };
 
 /***/ }),
@@ -37919,6 +38017,17 @@ module.exports = "/images/history.png?702378dcc395d8e0ff5da896ca6ee90b";
 
 /***/ }),
 
+/***/ "./resources/js/Assets/home.png":
+/*!**************************************!*\
+  !*** ./resources/js/Assets/home.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/home.png?6b5b86d16707b4fc030c01fa3ff2804c";
+
+/***/ }),
+
 /***/ "./resources/js/Assets/logo.png":
 /*!**************************************!*\
   !*** ./resources/js/Assets/logo.png ***!
@@ -37926,18 +38035,7 @@ module.exports = "/images/history.png?702378dcc395d8e0ff5da896ca6ee90b";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/logo.png?689c265b1ab80d02d7ad02024aa8f774";
-
-/***/ }),
-
-/***/ "./resources/js/Assets/sydney-opera-house.png":
-/*!****************************************************!*\
-  !*** ./resources/js/Assets/sydney-opera-house.png ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/sydney-opera-house.png?6b5b86d16707b4fc030c01fa3ff2804c";
+module.exports = "/images/logo.png?7f5e74838433ef506ae84f92c5363274";
 
 /***/ }),
 
@@ -38168,6 +38266,85 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./resources/js/components/CardOrderHistory/CardOrderHistory.js":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/CardOrderHistory/CardOrderHistory.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _CardOrderHistoryModule = __webpack_require__(/*! ./CardOrderHistory.module.css */ "./resources/js/components/CardOrderHistory/CardOrderHistory.module.css");
+
+var _CardOrderHistoryModule2 = _interopRequireDefault(_CardOrderHistoryModule);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var CardOrderHistory = function CardOrderHistory(props) {
+  return /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _CardOrderHistoryModule2["default"].container
+  }, /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _CardOrderHistoryModule2["default"].title
+  }, /*#__PURE__*/_react2["default"].createElement("p", null, props.item.product_name), /*#__PURE__*/_react2["default"].createElement("p", {
+    style: {
+      color: "rgba(94, 91, 91, 0.24)"
+    }
+  }, "$ ", props.item.price)), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _CardOrderHistoryModule2["default"].count
+  }, /*#__PURE__*/_react2["default"].createElement("p", {
+    style: {
+      fontSize: "16px",
+      fontWeight: 100
+    }
+  }, "\u2716"), " ", props.item.quantity), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _CardOrderHistoryModule2["default"].totalPrice
+  }, "$ ", props.item.quantity * props.item.price));
+};
+
+exports["default"] = CardOrderHistory;
+
+/***/ }),
+
+/***/ "./resources/js/components/CardOrderHistory/CardOrderHistory.module.css":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/CardOrderHistory/CardOrderHistory.module.css ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./CardOrderHistory.module.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/CardOrderHistory/CardOrderHistory.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/CategoryItems/CategoryItems.js":
 /*!****************************************************************!*\
   !*** ./resources/js/components/CategoryItems/CategoryItems.js ***!
@@ -38335,6 +38512,126 @@ var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/a
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/HistoryItem/HistoryItem.js":
+/*!************************************************************!*\
+  !*** ./resources/js/components/HistoryItem/HistoryItem.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _HistoryItemModule = __webpack_require__(/*! ./HistoryItem.module.css */ "./resources/js/components/HistoryItem/HistoryItem.module.css");
+
+var _HistoryItemModule2 = _interopRequireDefault(_HistoryItemModule);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var HistoryItem = function HistoryItem(props) {
+  var data = props.item.articles;
+  var totalPrice = 0;
+
+  for (var i = 0; i < data.length; i++) {
+    totalPrice += data[i].price * data[i].quantity;
+  }
+
+  return /*#__PURE__*/_react2["default"].createElement("div", {
+    onClick: function onClick() {
+      return props.onHistoryClick(props.item);
+    },
+    className: _HistoryItemModule2["default"].container
+  }, /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _HistoryItemModule2["default"].number
+  }, props.item.code), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _HistoryItemModule2["default"].totalPrice
+  }, "$ ", totalPrice), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _HistoryItemModule2["default"].date
+  }, props.item.created_at));
+};
+
+exports["default"] = HistoryItem;
+
+/***/ }),
+
+/***/ "./resources/js/components/HistoryItem/HistoryItem.module.css":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/HistoryItem/HistoryItem.module.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./HistoryItem.module.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/HistoryItem/HistoryItem.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/HistoryItem/HistoryItemHeader/HistoryItemHeader.js":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/HistoryItem/HistoryItemHeader/HistoryItemHeader.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _HistoryItemModule = __webpack_require__(/*! ../HistoryItem.module.css */ "./resources/js/components/HistoryItem/HistoryItem.module.css");
+
+var _HistoryItemModule2 = _interopRequireDefault(_HistoryItemModule);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var HistoryItem = function HistoryItem() {
+  return /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _HistoryItemModule2["default"].headerContainer
+  }, /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _HistoryItemModule2["default"].number
+  }, "Order Code"), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _HistoryItemModule2["default"].totalPrice
+  }, "Total Price"), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _HistoryItemModule2["default"].date
+  }, "Created Date"));
+};
+
+exports["default"] = HistoryItem;
 
 /***/ }),
 
@@ -39019,6 +39316,120 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.js":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Modal = __webpack_require__(/*! ../Modal/Modal */ "./resources/js/components/Modal/Modal.js");
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _OrderHistoryDetailsModalModule = __webpack_require__(/*! ./OrderHistoryDetailsModal.module.css */ "./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.module.css");
+
+var _OrderHistoryDetailsModalModule2 = _interopRequireDefault(_OrderHistoryDetailsModalModule);
+
+var _CardOrderHistory = __webpack_require__(/*! ../CardOrderHistory/CardOrderHistory */ "./resources/js/components/CardOrderHistory/CardOrderHistory.js");
+
+var _CardOrderHistory2 = _interopRequireDefault(_CardOrderHistory);
+
+var _Button = __webpack_require__(/*! ../Button/Button */ "./resources/js/components/Button/Button.js");
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var OrderHistoryDetailsModal = function OrderHistoryDetailsModal(props) {
+  var data = props.orders && props.orders.articles.map(function (item) {
+    return /*#__PURE__*/_react2["default"].createElement(_CardOrderHistory2["default"], {
+      key: item.id,
+      item: item
+    });
+  });
+  return /*#__PURE__*/_react2["default"].createElement(_Modal2["default"], {
+    width: "50%",
+    padding: "0",
+    height: "85vh",
+    show: props.show,
+    close: props.close
+  }, /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _OrderHistoryDetailsModalModule2["default"].all
+  }, /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _OrderHistoryDetailsModalModule2["default"].top
+  }, /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _OrderHistoryDetailsModalModule2["default"].number
+  }, "Order Code: ", props.orders && props.orders.code), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _OrderHistoryDetailsModalModule2["default"].date
+  }, "Created Date: ", props.orders && props.orders.created_at)), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _OrderHistoryDetailsModalModule2["default"].bottom
+  }, /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _OrderHistoryDetailsModalModule2["default"].container
+  }, data), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _OrderHistoryDetailsModalModule2["default"].totalPrice
+  }, /*#__PURE__*/_react2["default"].createElement("p", null, /*#__PURE__*/_react2["default"].createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, "Sub Price :"), " $", " ", props.totalPrice), /*#__PURE__*/_react2["default"].createElement("p", null, /*#__PURE__*/_react2["default"].createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, "Delivery Price :"), " $", " ", props.deliveryPrice)), /*#__PURE__*/_react2["default"].createElement("div", {
+    className: _OrderHistoryDetailsModalModule2["default"].buttonContainer
+  }, /*#__PURE__*/_react2["default"].createElement(_Button2["default"], {
+    title: "OK",
+    onClick: props.close,
+    width: "70%"
+  })))));
+};
+
+exports["default"] = OrderHistoryDetailsModal;
+
+/***/ }),
+
+/***/ "./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.module.css":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.module.css ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./OrderHistoryDetailsModal.module.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/OrderItems/OrderItems.js":
 /*!**********************************************************!*\
   !*** ./resources/js/components/OrderItems/OrderItems.js ***!
@@ -39494,9 +39905,9 @@ var _logo = __webpack_require__(/*! ../../Assets/logo.png */ "./resources/js/Ass
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _sydneyOperaHouse = __webpack_require__(/*! ../../Assets/sydney-opera-house.png */ "./resources/js/Assets/sydney-opera-house.png");
+var _home = __webpack_require__(/*! ../../Assets/home.png */ "./resources/js/Assets/home.png");
 
-var _sydneyOperaHouse2 = _interopRequireDefault(_sydneyOperaHouse);
+var _home2 = _interopRequireDefault(_home);
 
 var _history = __webpack_require__(/*! ../../Assets/history.png */ "./resources/js/Assets/history.png");
 
@@ -39514,7 +39925,7 @@ var Sidebar = function Sidebar() {
     Link: "/",
     exact: true,
     title: "Home",
-    imgName: _sydneyOperaHouse2["default"]
+    imgName: _home2["default"]
   }), /*#__PURE__*/_react2["default"].createElement(_SideListItems2["default"], {
     Link: "/OrderHistory",
     title: "Order History",
@@ -39997,13 +40408,213 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _OrderHistoryModule = __webpack_require__(/*! ./OrderHistory.module.css */ "./resources/js/contianers/OrderHistory/OrderHistory.module.css");
+
+var _OrderHistoryModule2 = _interopRequireDefault(_OrderHistoryModule);
+
+var _ClipLoader = __webpack_require__(/*! react-spinners/ClipLoader */ "./node_modules/react-spinners/ClipLoader.js");
+
+var _ClipLoader2 = _interopRequireDefault(_ClipLoader);
+
+var _axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _HistoryItem = __webpack_require__(/*! ../../components/HistoryItem/HistoryItem */ "./resources/js/components/HistoryItem/HistoryItem.js");
+
+var _HistoryItem2 = _interopRequireDefault(_HistoryItem);
+
+var _HistoryItemHeader = __webpack_require__(/*! ../../components/HistoryItem/HistoryItemHeader/HistoryItemHeader */ "./resources/js/components/HistoryItem/HistoryItemHeader/HistoryItemHeader.js");
+
+var _HistoryItemHeader2 = _interopRequireDefault(_HistoryItemHeader);
+
+var _OrderHistoryDetailsModal = __webpack_require__(/*! ../../components/OrderHistoryDetailsModal/OrderHistoryDetailsModal */ "./resources/js/components/OrderHistoryDetailsModal/OrderHistoryDetailsModal.js");
+
+var _OrderHistoryDetailsModal2 = _interopRequireDefault(_OrderHistoryDetailsModal);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var OrderHistory = function OrderHistory() {
-  return /*#__PURE__*/_react2["default"].createElement("div", null, "OrderHistory");
-};
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var OrderHistory = /*#__PURE__*/function (_Component) {
+  _inherits(OrderHistory, _Component);
+
+  var _super = _createSuper(OrderHistory);
+
+  function OrderHistory() {
+    var _this;
+
+    _classCallCheck(this, OrderHistory);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "state", {
+      loading: false,
+      orderHistory: null,
+      showOrderHistoryDetailsModal: false,
+      acitveItem: null,
+      totalPrice: 0
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "componentDidMount", function () {
+      _this.setState({
+        loading: true
+      });
+
+      (0, _axios2["default"])({
+        method: "get",
+        url: "https://innoscripta-app.herokuapp.com/api/orders?size=100&page=0"
+      }).then(function (respnse) {
+        _this.setState({
+          orderHistory: respnse.data.data,
+          loading: false
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onHistoryClickHandler", function (item) {
+      _this.setState({
+        acitveItem: item,
+        showOrderHistoryDetailsModal: true
+      }, function () {
+        var data = _this.state.acitveItem.articles;
+        var totalPrice = 0;
+
+        for (var i = 0; i < data.length; i++) {
+          totalPrice += data[i].price * data[i].quantity;
+        }
+
+        _this.setState({
+          totalPrice: totalPrice
+        });
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onCloseOrderHistoryDetailsModalHandler", function () {
+      _this.setState({
+        showOrderHistoryDetailsModal: false
+      });
+    });
+
+    return _this;
+  }
+
+  _createClass(OrderHistory, [{
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var data = this.state.orderHistory && _toConsumableArray(this.state.orderHistory);
+
+      var orders = data && data.map(function (item) {
+        return /*#__PURE__*/_react2["default"].createElement(_HistoryItem2["default"], {
+          key: item.id,
+          onHistoryClick: _this2.onHistoryClickHandler,
+          item: item
+        });
+      });
+      return /*#__PURE__*/_react2["default"].createElement("div", {
+        className: _OrderHistoryModule2["default"].container
+      }, !this.state.loading ? /*#__PURE__*/_react2["default"].createElement("div", null, /*#__PURE__*/_react2["default"].createElement("p", {
+        style: {
+          fontSize: "30px"
+        }
+      }, /*#__PURE__*/_react2["default"].createElement("span", {
+        style: {
+          fontWeight: "700"
+        }
+      }, "Order"), " History"), /*#__PURE__*/_react2["default"].createElement(_HistoryItemHeader2["default"], null), /*#__PURE__*/_react2["default"].createElement("div", {
+        className: _OrderHistoryModule2["default"].orderContainer
+      }, orders)) : /*#__PURE__*/_react2["default"].createElement("div", {
+        className: _OrderHistoryModule2["default"].loading
+      }, /*#__PURE__*/_react2["default"].createElement(_ClipLoader2["default"], {
+        sizeUnit: "px",
+        size: 50,
+        color: "rgb(228, 132, 13)",
+        loading: this.state.loading
+      })), /*#__PURE__*/_react2["default"].createElement(_OrderHistoryDetailsModal2["default"], {
+        totalPrice: this.state.totalPrice,
+        orders: this.state.acitveItem && this.state.acitveItem,
+        show: this.state.showOrderHistoryDetailsModal,
+        close: this.onCloseOrderHistoryDetailsModalHandler
+      }));
+    }
+  }]);
+
+  return OrderHistory;
+}(_react.Component);
 
 exports["default"] = OrderHistory;
+
+/***/ }),
+
+/***/ "./resources/js/contianers/OrderHistory/OrderHistory.module.css":
+/*!**********************************************************************!*\
+  !*** ./resources/js/contianers/OrderHistory/OrderHistory.module.css ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--5-1!../../../../node_modules/postcss-loader/src??ref--5-2!./OrderHistory.module.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/contianers/OrderHistory/OrderHistory.module.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
