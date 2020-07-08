@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\GetOrdersRequest;
 use App\Http\Requests\ProductListRequest;
 use App\Http\Requests\StoreOrderRequest;
+use App\Http\Resources\PreOrderResource;
 use App\Model\OrderArticle;
 use App\Model\OrderHeader;
 use App\Services\OrderService;
@@ -133,6 +134,36 @@ class OrderController extends Controller
     public function getList(GetOrdersRequest $request)
     {
         return $this->orderService->getList($request);
+    }
+
+
+    /**
+     *
+     * @SWG\Get(path="/pre-order",
+     *     tags={"orders"},
+     *     summary="Get the necessary information before order",
+     *     operationId="PreOrder",
+     *     produces={"application/json"},
+     *     @SWG\Response(
+     *         response=200,
+     *         description="Successful operation",
+     *     ),
+     *     @SWG\Response(
+     *         response=400,
+     *         description="Invalid request supplied"
+     *     ),
+     *     @SWG\Response(
+     *         response=500,
+     *         description="Internal server error"
+     *     )
+     * )
+     * @return PreOrderResource
+     */
+    public function preOrder()
+    {
+        $data = new \stdClass();
+        $data->delivery_price = env('DELIVERY_PRICE');
+        return new PreOrderResource($data);
     }
 
 }

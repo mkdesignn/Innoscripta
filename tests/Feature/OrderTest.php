@@ -186,4 +186,15 @@ class OrderTest extends TestCase
                 ]]
             ]);
     }
+
+    /**
+     * @test
+     *
+     * @return void
+     */
+    public function preOrder_should_return_specific_results()
+    {
+        dd($this->json('get', 'api/pre-order')
+            ->getContent());
+    }
 }

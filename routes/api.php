@@ -20,5 +20,7 @@ Route::group(['namespace'=>'Api\V1'], function(){
 
     Route::post('orders', 'OrderController@storeOrder');
     Route::get('orders', 'OrderController@getList');
+
+    Route::get('pre-order', 'OrderController@preOrder');
 });
 
