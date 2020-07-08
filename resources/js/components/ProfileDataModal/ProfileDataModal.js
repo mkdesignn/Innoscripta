@@ -67,7 +67,7 @@ const ProfileDataModal = (props) => {
               )
             ) : (
               <div className={classes.successOrder}>
-                <h4>Your order has been completed successfully!</h4>
+                <h4>Your order has been completed successfully, order code: {props.data.code}</h4>
                 <div className={classes.buttonContainer}>
                   <Button title={"OK"} onClick={props.close} width={"30%"} />
                 </div>

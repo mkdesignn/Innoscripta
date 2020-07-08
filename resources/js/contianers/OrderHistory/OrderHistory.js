@@ -56,7 +56,7 @@ class OrderHistory extends Component {
       <div className={classes.container}>
         {!this.state.loading ? (
           <div>
-            <p style={{ fontSize: "30px" }}>
+            <p style={{ fontSize: "30px", padding: '20px 28px' }}>
               <span style={{ fontWeight: "700" }}>Order</span> History
             </p>
             <HistoryItemHeader />

@@ -14,7 +14,6 @@ const OrderHistoryDetailsModal = (props) => {
     <Modal
       width={"50%"}
       padding={"0"}
-      height={"85vh"}
       show={props.show}
       close={props.close}
     >

@@ -3941,7 +3941,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".HistoryItem-module__container___34FFX {\r\n  width: 80%;\r\n  height: 70px;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  background-color: white;\r\n  margin: 5px auto;\r\n  cursor: pointer;\r\n}\r\n.HistoryItem-module__container___34FFX:hover {\r\n  background-color: rgba(251, 236, 191, 0.65);\r\n}\r\n.HistoryItem-module__headerContainer___1OKEq {\r\n  width: 80%;\r\n  height: 60px;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  background-color: rgb(255, 218, 108);\r\n  margin: 5px auto;\r\n  font-size: 20px;\r\n  font-weight: bold;\r\n  color: white;\r\n}\r\n.HistoryItem-module__date___3oofZ,\r\n.HistoryItem-module__number___1ATmg,\r\n.HistoryItem-module__totalPrice___GQ3er {\r\n  width: 30%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".HistoryItem-module__container___34FFX {\n  width: 95%;\n  height: 70px;\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: white;\n  margin: 5px auto;\n  cursor: pointer;\n}\n.HistoryItem-module__container___34FFX:hover {\n  background-color: rgba(251, 236, 191, 0.65);\n}\n.HistoryItem-module__headerContainer___1OKEq {\n  width: 95%;\n  height: 60px;\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: rgb(255, 218, 108);\n  margin: 15px auto;\n  font-size: 20px;\n  font-weight: bold;\n  color: white;\n}\n.HistoryItem-module__date___3oofZ,\n.HistoryItem-module__number___1ATmg,\n.HistoryItem-module__totalPrice___GQ3er {\n  width: 30%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4153,7 +4153,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderHistoryDetailsModal-module__container___1OrGx {\r\n  width: 100%;\r\n  height: 40vh;\r\n  overflow: auto;\r\n  margin: 20px auto;\r\n}\r\n.OrderHistoryDetailsModal-module__all___1emdw {\r\n  background-color: rgb(255, 218, 108);\r\n  width: 100%;\r\n  height: 100%;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  flex-direction: column;\r\n}\r\n.OrderHistoryDetailsModal-module__buttonContainer___1-Mjz {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  position: absolute;\r\n  bottom: 10px;\r\n}\r\n.OrderHistoryDetailsModal-module__top___2keY3 {\r\n  height: 15%;\r\n  font-size: 15px;\r\n  font-weight: bold;\r\n  line-height: 28px;\r\n}\r\n.OrderHistoryDetailsModal-module__bottom___23sBq,\r\n.OrderHistoryDetailsModal-module__top___2keY3 {\r\n  width: 100%;\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n  text-align: justify;\r\n}\r\n.OrderHistoryDetailsModal-module__bottom___23sBq {\r\n  height: 85%;\r\n  background-color: white;\r\n  border-top-left-radius: 20px;\r\n  border-top-right-radius: 20px;\r\n  border-bottom-right-radius: 10px;\r\n  border-bottom-left-radius: 10px;\r\n  position: relative;\r\n}\r\n.OrderHistoryDetailsModal-module__totalPrice___3Tm8y {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  padding: 10px 20px;\r\n  box-sizing: border-box;\r\n  border-top: 1px dashed black;\r\n}\r\n", ""]);
+exports.push([module.i, ".OrderHistoryDetailsModal-module__container___1OrGx {\n  width: 100%;\n  overflow: auto;\n  margin: 20px auto;\n}\n.OrderHistoryDetailsModal-module__all___1emdw {\n  background-color: rgb(255, 218, 108);\n  width: 100%;\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n.OrderHistoryDetailsModal-module__buttonContainer___1-Mjz {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  bottom: 10px;\n}\n.OrderHistoryDetailsModal-module__top___2keY3 {\n  font-size: 15px;\n  font-weight: bold;\n  line-height: 28px;\n}\n.OrderHistoryDetailsModal-module__bottom___23sBq,\n.OrderHistoryDetailsModal-module__top___2keY3 {\n  width: 100%;\n  padding: 10px;\n  box-sizing: border-box;\n  text-align: justify;\n}\n.OrderHistoryDetailsModal-module__bottom___23sBq {\n  background-color: white;\n  border-radius: 20px 20px 10px 10px;\n  position: relative;\n}\n.OrderHistoryDetailsModal-module__totalPrice___3Tm8y {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px 20px;\n  box-sizing: border-box;\n  border-top: 1px dashed black;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4342,7 +4342,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderHistory-module__container____mZwF,\n.OrderHistory-module__orderContainer___2MdJh {\n  width: 100%;\n  padding: 10px;\n}\n.OrderHistory-module__container____mZwF {\n  /*height: 100vh;*/\n  overflow: hidden;\n}\n\n.OrderHistory-module__orderContainer___2MdJh {\n  height: 70vh;\n  overflow: auto;\n}\n.OrderHistory-module__loading___2HqIU {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
+exports.push([module.i, ".OrderHistory-module__container____mZwF,\n.OrderHistory-module__orderContainer___2MdJh {\n  width: 100%;\n}\n.OrderHistory-module__container____mZwF {\n  /*height: 100vh;*/\n  overflow: hidden;\n}\n\n.OrderHistory-module__orderContainer___2MdJh {\n  overflow: auto;\n}\n.OrderHistory-module__loading___2HqIU {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -39363,7 +39363,6 @@ var OrderHistoryDetailsModal = function OrderHistoryDetailsModal(props) {
   return /*#__PURE__*/_react2["default"].createElement(_Modal2["default"], {
     width: "50%",
     padding: "0",
-    height: "85vh",
     show: props.show,
     close: props.close
   }, /*#__PURE__*/_react2["default"].createElement("div", {
@@ -39714,7 +39713,7 @@ var ProfileDataModal = function ProfileDataModal(props) {
     width: "70%"
   }))) : /*#__PURE__*/_react2["default"].createElement("div", {
     className: _ProfileDataModalModule2["default"].successOrder
-  }, /*#__PURE__*/_react2["default"].createElement("h4", null, "Your order has been completed successfully!"), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, /*#__PURE__*/_react2["default"].createElement("h4", null, "Your order has been completed successfully, order code: ", props.data.code), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _ProfileDataModalModule2["default"].buttonContainer
   }, /*#__PURE__*/_react2["default"].createElement(_Button2["default"], {
     title: "OK",
@@ -40098,7 +40097,8 @@ var Menu = /*#__PURE__*/function (_Component) {
       profileModalLoading: false,
       showNextErrorModal: false,
       succsessOrder: false,
-      errors: ""
+      errors: "",
+      responseOrder: ""
     });
 
     _defineProperty(_assertThisInitialized(_this), "componentDidMount", function () {
@@ -40277,11 +40277,9 @@ var Menu = /*#__PURE__*/function (_Component) {
       }).then(function (respnse) {
         _this.setState({
           profileModalLoading: false,
-          succsessOrder: true
+          succsessOrder: true,
+          responseOrder: respnse.data.data
         });
-
-        console.log(respnse.data);
-        console.log(respnse);
       })["catch"](function (error) {
         _this.setState({
           errors: error.response.data.message,
@@ -40346,6 +40344,7 @@ var Menu = /*#__PURE__*/function (_Component) {
         closeError: this.onCloseErrorProfileDataModalHandler,
         succsessOrder: this.state.succsessOrder,
         loading: this.state.profileModalLoading,
+        data: this.state.responseOrder,
         onProfileDataOrderClick: this.onProfileDataOrderClickHandler,
         onChangeHandler: this.onChangeHandler,
         show: this.state.showProfileDataModal,
@@ -40561,7 +40560,8 @@ var OrderHistory = /*#__PURE__*/function (_Component) {
         className: _OrderHistoryModule2["default"].container
       }, !this.state.loading ? /*#__PURE__*/_react2["default"].createElement("div", null, /*#__PURE__*/_react2["default"].createElement("p", {
         style: {
-          fontSize: "30px"
+          fontSize: "30px",
+          padding: '20px 28px'
         }
       }, /*#__PURE__*/_react2["default"].createElement("span", {
         style: {

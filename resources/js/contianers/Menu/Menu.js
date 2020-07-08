@@ -29,6 +29,7 @@ class Menu extends Component {
     showNextErrorModal: false,
     succsessOrder: false,
     errors: "",
+    responseOrder: ""
   };
 
   componentDidMount = () => {
@@ -197,9 +198,7 @@ class Menu extends Component {
       },
     })
       .then((respnse) => {
-        this.setState({ profileModalLoading: false, succsessOrder: true });
-        console.log(respnse.data);
-        console.log(respnse);
+        this.setState({ profileModalLoading: false, succsessOrder: true, responseOrder: respnse.data.data });
       })
       .catch((error) => {
         this.setState({
@@ -260,6 +259,7 @@ class Menu extends Component {
           closeError={this.onCloseErrorProfileDataModalHandler}
           succsessOrder={this.state.succsessOrder}
           loading={this.state.profileModalLoading}
+          data={this.state.responseOrder}
           onProfileDataOrderClick={this.onProfileDataOrderClickHandler}
           onChangeHandler={this.onChangeHandler}
           show={this.state.showProfileDataModal}
