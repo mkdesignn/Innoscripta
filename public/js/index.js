@@ -3804,7 +3804,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Backdrop-module__Backdrop___15yM_ {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  z-index: 1001;\r\n  left: 0;\r\n  top: 0;\r\n  background-color: rgba(148, 142, 142, 0.67);\r\n}\r\n", ""]);
+exports.push([module.i, ".Backdrop-module__Backdrop___15yM_ {\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  z-index: 1001;\n  left: 0;\n  top: 0;\n  background-color: rgba(148, 142, 142, 0.67);\n  opacity: 1;\n  transition: opacity 3s ease;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3966,7 +3966,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Input-module__container___1Jw6U {\r\n  width: 90%;\r\n  margin: 10px auto;\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: flex-start;\r\n  flex-direction: column;\r\n  position: relative;\r\n  flex-shrink: 0;\r\n  min-height: 50px;\r\n  box-sizing: border-box;\r\n}\r\ninput {\r\n  border-radius: 5px;\r\n  border: none;\r\n  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.49);\r\n  width: 100%;\r\n  height: 5vh;\r\n  max-height: 40px;\r\n  min-height: 30px;\r\n  padding: 10px;\r\n  margin: 10px 0;\r\n  position: relative;\r\n  flex-shrink: 0;\r\n  box-sizing: border-box;\r\n}\r\ninput::placeholder {\r\n  font-size: 13px;\r\n}\r\nlabel {\r\n  font-weight: 600;\r\n}\r\n.Input-module__innerClass___2vTkj {\r\n  position: absolute;\r\n  top: 43px;\r\n  left: 18px;\r\n}\r\n/* Extra small devices (portrait phones, less than 576px) */\r\n@media (max-width: 575px) {\r\n  .Input-module__innerClass___2vTkj {\r\n    top: 36px;\r\n  }\r\n  .Input-module__container___1Jw6U {\r\n    margin: 20px auto;\r\n  }\r\n}\r\n\r\n/* Small devices (landscape phones, 576px and up) */\r\n@media (min-width: 576px) and (max-width: 767px) {\r\n}\r\n\r\n/* Medium devices (tablets, 768px and up) */\r\n@media (min-width: 768px) and (max-width: 991px) {\r\n}\r\n\r\n/* Large devices (desktops, 992px and up) */\r\n@media (min-width: 992px) and (max-width: 1200px) {\r\n}\r\n\r\n/* Extra large devices (large desktops, 1200px and up) */\r\n@media (min-width: 1201px) {\r\n}\r\n", ""]);
+exports.push([module.i, ".Input-module__container___1Jw6U {\n  width: 90%;\n  margin: 10px auto;\n  display: flex;\n  justify-content: flex-start;\n  align-items: flex-start;\n  flex-direction: column;\n  position: relative;\n  flex-shrink: 0;\n  min-height: 50px;\n  box-sizing: border-box;\n}\ninput {\n  border-radius: 5px;\n  width: 100%;\n  max-height: 40px;\n  min-height: 30px;\n  padding: 10px;\n  margin: 10px 0;\n  position: relative;\n  flex-shrink: 0;\n  box-sizing: border-box;\n  outline:none;\n  border: 1px solid rgba(42,42,42,.1)\n}\n\ninput:focus{\n    box-shadow: 0px 0px 10px 1px rgba(42,42,42,0.04);\n}\n\ninput::placeholder {\n  font-size: 13px;\n}\nlabel {\n  font-weight: 600;\n}\n.Input-module__innerClass___2vTkj {\n  position: absolute;\n  top: 43px;\n  left: 18px;\n}\n/* Extra small devices (portrait phones, less than 576px) */\n@media (max-width: 575px) {\n  .Input-module__innerClass___2vTkj {\n    top: 36px;\n  }\n  .Input-module__container___1Jw6U {\n    margin: 20px auto;\n  }\n}\n\n/* Small devices (landscape phones, 576px and up) */\n@media (min-width: 576px) and (max-width: 767px) {\n}\n\n/* Medium devices (tablets, 768px and up) */\n@media (min-width: 768px) and (max-width: 991px) {\n}\n\n/* Large devices (desktops, 992px and up) */\n@media (min-width: 992px) and (max-width: 1200px) {\n}\n\n/* Extra large devices (large desktops, 1200px and up) */\n@media (min-width: 1201px) {\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4032,7 +4032,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".MenuCategory-module__container___BU2Zs p {\n  font-size: 30px;\n  margin: 0 auto 10px;\n  padding: 20px 28px;\n}\n\n.MenuCategory-module__catItemsContainer___3mxA6 {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0 50px;\n  box-sizing: border-box;\n}\n", ""]);
+exports.push([module.i, ".MenuCategory-module__container___BU2Zs p {\n  font-size: 30px;\n  margin: 0 auto 10px;\n  padding: 20px 28px;\n}\n\n.MenuCategory-module__catItemsContainer___3mxA6 {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0 29px;\n  box-sizing: border-box;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4097,7 +4097,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".NextErrorModal-module__container___2TcD- {\r\n  background-color: rgb(255, 218, 108);\r\n  width: 100%;\r\n  height: 100%;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  flex-direction: column;\r\n}\r\n.NextErrorModal-module__top___1kbuG {\r\n  height: 15%;\r\n  font-size: 30px;\r\n  text-align: center;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.NextErrorModal-module__bottom___39T1n,\r\n.NextErrorModal-module__top___1kbuG {\r\n  width: 100%;\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n}\r\n.NextErrorModal-module__bottom___39T1n {\r\n  height: 85%;\r\n  background-color: white;\r\n  border-top-left-radius: 20px;\r\n  border-top-right-radius: 20px;\r\n  border-bottom-right-radius: 10px;\r\n  border-bottom-left-radius: 10px;\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n.NextErrorModal-module__buttonContainer___22A1V {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  position: absolute;\r\n  bottom: 10px;\r\n  left: 0;\r\n}\r\n.NextErrorModal-module__loading___3b7CF {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".NextErrorModal-module__container___2TcD- {\n  background-color: rgb(255, 218, 108);\n  width: 100%;\n  /*height: 100%;*/\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n.NextErrorModal-module__top___1kbuG {\n  height: 15%;\n  font-size: 30px;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.NextErrorModal-module__bottom___39T1n,\n.NextErrorModal-module__top___1kbuG {\n  width: 100%;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.NextErrorModal-module__bottom___39T1n {\n  height: 85%;\n  background-color: white;\n  border-radius: 20px 20px 10px 10px;\n  /*position: relative;*/\n  /*display: flex;*/\n  justify-content: center;\n}\n\n.NextErrorModal-module__bottom___39T1n h4{\n    text-align: center;\n}\n\n.NextErrorModal-module__buttonContainer___22A1V {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  /*position: absolute;*/\n  bottom: 10px;\n  left: 0;\n}\n.NextErrorModal-module__loading___3b7CF {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4122,7 +4122,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderDetailsModal-module__container___1KzJe {\r\n  background-color: rgb(255, 218, 108);\r\n  width: 100%;\r\n  height: 100%;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  flex-direction: column;\r\n}\r\n.OrderDetailsModal-module__top___3f1SB {\r\n  height: 35%;\r\n}\r\n.OrderDetailsModal-module__bottom___2VEAI,\r\n.OrderDetailsModal-module__top___3f1SB {\r\n  width: 100%;\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n  text-align: justify;\r\n}\r\n\r\n.OrderDetailsModal-module__top___3f1SB p,\r\n.OrderDetailsModal-module__top___3f1SB h4,\r\n.OrderDetailsModal-module__bottom___2VEAI h4,\r\n.OrderDetailsModal-module__bottom___2VEAI p {\r\n  margin: 5px;\r\n}\r\n\r\n.OrderDetailsModal-module__bottom___2VEAI {\r\n  height: 65%;\r\n  background-color: white;\r\n  border-top-left-radius: 20px;\r\n  border-top-right-radius: 20px;\r\n  border-bottom-right-radius: 10px;\r\n  border-bottom-left-radius: 10px;\r\n  position: relative;\r\n}\r\n.OrderDetailsModal-module__image___24l9B {\r\n  height: 150px;\r\n  width: 150px;\r\n  position: absolute;\r\n  top: 0%;\r\n  left: 50%;\r\n  border-radius: 50%;\r\n  overflow: hidden;\r\n  transform: translate(-50%, -50%);\r\n}\r\n.OrderDetailsModal-module__image___24l9B img {\r\n  height: 150px;\r\n  width: 150px;\r\n}\r\n.OrderDetailsModal-module__bottomHeader___TBYUD {\r\n  padding-top: 25px;\r\n  padding-bottom: 15px;\r\n  box-sizing: border-box;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n.OrderDetailsModal-module__bottomHeader___TBYUD span {\r\n  font-weight: 600;\r\n}\r\n.OrderDetailsModal-module__bottomFooter___3atpP {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  padding: 10px;\r\n  position: absolute;\r\n  bottom: 80px;\r\n  left: 0;\r\n  box-sizing: border-box;\r\n}\r\n.OrderDetailsModal-module__bottomFooter___3atpP h3 {\r\n  margin: 0;\r\n}\r\n\r\n.OrderDetailsModal-module__count___RZvAZ,\r\n.OrderDetailsModal-module__price___5qDnx {\r\n  width: 50%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.OrderDetailsModal-module__buttonContainer___2SzkL {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  position: absolute;\r\n  bottom: 10px;\r\n}\r\n.OrderDetailsModal-module__plus___1rxzo {\r\n  width: 30px;\r\n  height: 30px;\r\n  border-radius: 50%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: rgb(255, 218, 108);\r\n  cursor: pointer;\r\n  user-select: none;\r\n}\r\n.OrderDetailsModal-module__countNum___24c48 {\r\n  width: 30px;\r\n  height: 30px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.OrderDetailsModal-module__plus___1rxzo p {\r\n  font-size: 30px;\r\n  height: 25px;\r\n  line-height: 20px;\r\n  color: white;\r\n  font-weight: 700;\r\n  user-select: none;\r\n}\r\n", ""]);
+exports.push([module.i, ".OrderDetailsModal-module__container___1KzJe {\n  background-color: rgb(255, 218, 108);\n  width: 100%;\n  height: 100%;\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n.OrderDetailsModal-module__top___3f1SB {\n  height: 200px;\n}\n.OrderDetailsModal-module__bottom___2VEAI,\n.OrderDetailsModal-module__top___3f1SB {\n  width: 100%;\n  padding: 10px;\n  box-sizing: border-box;\n  text-align: justify;\n}\n\n.OrderDetailsModal-module__top___3f1SB p,\n.OrderDetailsModal-module__top___3f1SB h4,\n.OrderDetailsModal-module__bottom___2VEAI h4,\n.OrderDetailsModal-module__bottom___2VEAI p {\n  margin: 5px;\n}\n\n.OrderDetailsModal-module__top___3f1SB p,\n.OrderDetailsModal-module__bottom___2VEAI p{\n    line-height: 1.4;\n    margin-top:25px;\n}\n\n.OrderDetailsModal-module__bottom___2VEAI {\n  height: 350px;\n  background-color: white;\n  border-radius: 20px 20px 10px 10px;\n  position: relative;\n}\n.OrderDetailsModal-module__image___24l9B {\n  height: 150px;\n  width: 150px;\n  position: absolute;\n  top: 0%;\n  left: 50%;\n  border-radius: 50%;\n  overflow: hidden;\n  transform: translate(-50%, -50%);\n}\n.OrderDetailsModal-module__image___24l9B img {\n  height: 150px;\n  width: 150px;\n}\n.OrderDetailsModal-module__bottomHeader___TBYUD {\n  padding-top: 25px;\n  padding-bottom: 15px;\n  box-sizing: border-box;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin:5px;\n}\n.OrderDetailsModal-module__bottomHeader___TBYUD span {\n  font-weight: 600;\n}\n.OrderDetailsModal-module__bottomFooter___3atpP {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px;\n  position: absolute;\n  bottom: 80px;\n  left: 0;\n  box-sizing: border-box;\n}\n.OrderDetailsModal-module__bottomFooter___3atpP h3 {\n  margin: 0;\n}\n\n.OrderDetailsModal-module__count___RZvAZ,\n.OrderDetailsModal-module__price___5qDnx {\n  width: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.OrderDetailsModal-module__buttonContainer___2SzkL {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  bottom: 10px;\n}\n.OrderDetailsModal-module__plus___1rxzo {\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgb(255, 218, 108);\n  cursor: pointer;\n  user-select: none;\n}\n.OrderDetailsModal-module__countNum___24c48 {\n  width: 30px;\n  height: 30px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.OrderDetailsModal-module__plus___1rxzo p {\n  font-size: 30px;\n  /*height: 25px;*/\n  line-height: 0;\n  color: white;\n  font-weight: 700;\n  text-align: center;\n  user-select: none;\n  margin-top:2px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4179,7 +4179,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderItems-module__container___TLOVm {\r\n  width: 140px;\r\n  box-sizing: border-box;\r\n  height: 160px;\r\n  border-radius: 20px;\r\n  background-color: white;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  flex-direction: column;\r\n  margin: 10px;\r\n  cursor: pointer;\r\n}\r\n\r\n.OrderItems-module__image___2UfN0 {\r\n  height: 70px;\r\n  width: 70px;\r\n  border-radius: 50%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  overflow: hidden;\r\n}\r\n.OrderItems-module__image___2UfN0 img {\r\n  width: 70px;\r\n  height: 70px;\r\n}\r\n\r\n.OrderItems-module__name___32FpV {\r\n  text-align: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".OrderItems-module__container___TLOVm {\n  width: 140px;\n  box-sizing: border-box;\n  height: 160px;\n  border-radius: 10px;\n  background-color: white;\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  flex-direction: column;\n  margin: 10px;\n  cursor: pointer;\n  border:1px solid rgba(42,42,42,0.04);\n}\n\n.OrderItems-module__image___2UfN0 {\n  height: 70px;\n  width: 70px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n}\n.OrderItems-module__image___2UfN0 img {\n  width: 70px;\n  height: 70px;\n}\n\n.OrderItems-module__name___32FpV {\n  text-align: center;\n  font-weight: bolder;\n  width:80%;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4202,7 +4202,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderList-module__container___3n-23 {\n  width: 100%;\n  /*height: 100vh;*/\n  padding: 10px;\n  position: relative;\n  box-sizing: border-box;\n}\n.OrderList-module__header___E-xOU {\n  width: 100%;\n  height: 7vh;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.OrderList-module__header___E-xOU img {\n  height: 30px;\n  width: 30px;\n  cursor: pointer;\n}\n.OrderList-module__container___3n-23 p {\n  font-size: 30px;\n  margin: 0;\n}\n.OrderList-module__cardsContainer___1kmAh {\n  width: 100%;\n  /*height: 60vh;*/\n  overflow: auto;\n  margin-top: 15px;\n  border-bottom: 1px dashed;\n}\n\n.OrderList-module__buttonContainer___2BAQ2 {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  bottom: 10px;\n  left: 0;\n}\n.OrderList-module__factorPrice___MD6MP {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.OrderList-module__factorPrice___MD6MP p {\n  font-size: 15px;\n  font-weight: bold;\n}\n", ""]);
+exports.push([module.i, ".OrderList-module__container___3n-23 {\n  width: 100%;\n  /*height: 100vh;*/\n  padding: 10px;\n  position: relative;\n  box-sizing: border-box;\n}\n.OrderList-module__header___E-xOU {\n  width: 100%;\n  height: 7vh;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.OrderList-module__header___E-xOU img {\n  height: 30px;\n  width: 30px;\n  cursor: pointer;\n}\n.OrderList-module__container___3n-23 p {\n  font-size: 30px;\n  margin: 0;\n}\n.OrderList-module__cardsContainer___1kmAh {\n  width: 100%;\n  /*height: 60vh;*/\n  overflow: auto;\n  margin-top: 15px;\n  border-bottom: 1px dashed rgba(42,42,42,.2);\n}\n\n.OrderList-module__buttonContainer___2BAQ2 {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  /*position: absolute;*/\n  bottom: 10px;\n  left: 0;\n}\n.OrderList-module__factorPrice___MD6MP {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.OrderList-module__factorPrice___MD6MP p {\n  font-size: 15px;\n  font-weight: bold;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4227,7 +4227,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".ProfileDataModal-module__container___3_V85 {\r\n  background-color: rgb(255, 218, 108);\r\n  width: 100%;\r\n  height: 100%;\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  flex-direction: column;\r\n}\r\n.ProfileDataModal-module__top___3Dy5O {\r\n  height: 20%;\r\n  font-size: 30px;\r\n  text-align: center;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.ProfileDataModal-module__bottom___kT0CC,\r\n.ProfileDataModal-module__top___3Dy5O {\r\n  width: 100%;\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n}\r\n.ProfileDataModal-module__bottom___kT0CC {\r\n  height: 80%;\r\n  background-color: white;\r\n  border-top-left-radius: 20px;\r\n  border-top-right-radius: 20px;\r\n  border-bottom-right-radius: 10px;\r\n  border-bottom-left-radius: 10px;\r\n  position: relative;\r\n}\r\n.ProfileDataModal-module__buttonContainer___1Bgrz {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  position: absolute;\r\n  bottom: 10px;\r\n  left: 0;\r\n}\r\n.ProfileDataModal-module__loading___1iid1 {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.ProfileDataModal-module__successOrder___UTFoa {\r\n  height: 100%;\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".ProfileDataModal-module__container___3_V85 {\n  background-color: rgb(255, 218, 108);\n  width: 100%;\n  /*height: 100%;*/\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n.ProfileDataModal-module__top___3Dy5O {\n  /*height: 20%;*/\n  font-size: 30px;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.ProfileDataModal-module__bottom___kT0CC,\n.ProfileDataModal-module__top___3Dy5O {\n  width: 100%;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.ProfileDataModal-module__bottom___kT0CC {\n  /*height: 80%;*/\n  background-color: white;\n  border-radius: 20px 20px 10px 10px;\n  position: relative;\n}\n.ProfileDataModal-module__buttonContainer___1Bgrz {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  /*position: absolute;*/\n  bottom: 10px;\n  left: 0;\n}\n.ProfileDataModal-module__loading___1iid1 {\n  width: 100%;\n  /*height: 100%;*/\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.ProfileDataModal-module__successOrder___UTFoa {\n  /*height: 100%;*/\n  width: 100%;\n  justify-content: center;\n  align-items: center;\n}\n\n.ProfileDataModal-module__successOrder___UTFoa h4{\n    text-align: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -38384,6 +38384,9 @@ var CategoryItems = function CategoryItems(props) {
     src: props.item.image,
     alt: props.item.name
   })), /*#__PURE__*/_react2["default"].createElement("div", {
+    style: {
+      color: props.activeId !== props.item.id ? "rgba(94, 91, 91, 0.24)" : "black"
+    },
     className: _CategoryItemsModule2["default"].name
   }, props.item.name));
 };
@@ -39148,7 +39151,6 @@ var NextErrorModal = function NextErrorModal(props) {
   return /*#__PURE__*/_react2["default"].createElement(_Modal2["default"], {
     width: "50%",
     padding: "0",
-    height: "30vh",
     show: props.show,
     close: props.close
   }, /*#__PURE__*/_react2["default"].createElement("div", {
@@ -39239,7 +39241,6 @@ var OrderDetailsModal = function OrderDetailsModal(props) {
   return /*#__PURE__*/_react2["default"].createElement(_Modal2["default"], {
     width: "50%",
     padding: "0",
-    height: "85vh",
     show: props.show,
     close: props.close
   }, props.activeOrderItem && /*#__PURE__*/_react2["default"].createElement("div", {
@@ -39469,7 +39470,7 @@ var OrderItems = function OrderItems(props) {
     className: _OrderItemsModule2["default"].name
   }, props.item.name), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderItemsModule2["default"].price
-  }, props.item.price));
+  }, "$", props.item.price));
 };
 
 exports["default"] = OrderItems;
@@ -39665,7 +39666,6 @@ var ProfileDataModal = function ProfileDataModal(props) {
   return /*#__PURE__*/_react2["default"].createElement(_Modal2["default"], {
     width: "50%",
     padding: "0",
-    height: "75vh",
     show: props.show,
     close: props.close
   }, /*#__PURE__*/_react2["default"].createElement("div", {
@@ -39674,7 +39674,11 @@ var ProfileDataModal = function ProfileDataModal(props) {
     className: _ProfileDataModalModule2["default"].top
   }, /*#__PURE__*/_react2["default"].createElement("div", {
     className: _ProfileDataModalModule2["default"].header
-  }, /*#__PURE__*/_react2["default"].createElement("h5", null, "Fill the form below to continue"))), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, /*#__PURE__*/_react2["default"].createElement("h5", {
+    style: {
+      "display": props.succsessOrder ? 'none' : ''
+    }
+  }, "Fill the form below to continue"))), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _ProfileDataModalModule2["default"].bottom
   }, !props.loading ? !props.succsessOrder ? props.errors && props.errors.length > 0 ? /*#__PURE__*/_react2["default"].createElement("div", {
     className: _ProfileDataModalModule2["default"].successOrder

@@ -8,7 +8,6 @@ const NextErrorModal = (props) => {
     <Modal
       width={"50%"}
       padding={"0"}
-      height={"30vh"}
       show={props.show}
       close={props.close}
     >

@@ -10,14 +10,13 @@ const ProfileDataModal = (props) => {
     <Modal
       width={"50%"}
       padding={"0"}
-      height={"75vh"}
       show={props.show}
       close={props.close}
     >
       <div className={classes.container}>
         <div className={classes.top}>
           <div className={classes.header}>
-            <h5>Fill the form below to continue</h5>
+            <h5 style={{"display": props.succsessOrder ? 'none' : ''}}>Fill the form below to continue</h5>
           </div>
         </div>
         <div className={classes.bottom}>

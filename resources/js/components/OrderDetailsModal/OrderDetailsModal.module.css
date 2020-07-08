@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 .top {
-  height: 35%;
+  height: 200px;
 }
 .bottom,
 .top {
@@ -26,13 +26,16 @@
   margin: 5px;
 }
 
+.top p,
+.bottom p{
+    line-height: 1.4;
+    margin-top:25px;
+}
+
 .bottom {
-  height: 65%;
+  height: 350px;
   background-color: white;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 20px 20px 10px 10px;
   position: relative;
 }
 .image {
@@ -56,6 +59,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin:5px;
 }
 .bottomHeader span {
   font-weight: 600;
@@ -111,9 +115,11 @@
 }
 .plus p {
   font-size: 30px;
-  height: 25px;
-  line-height: 20px;
+  /*height: 25px;*/
+  line-height: 0;
   color: white;
   font-weight: 700;
+  text-align: center;
   user-select: none;
+  margin-top:2px;
 }

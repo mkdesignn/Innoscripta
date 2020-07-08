@@ -11,7 +11,7 @@ const OrderItems = (props) => {
         <img src={props.item.avatar} alt={props.item.name} />
       </div>
       <div className={classes.name}>{props.item.name}</div>
-      <div className={classes.price}>{props.item.price}</div>
+      <div className={classes.price}>${props.item.price}</div>
     </div>
   );
 };

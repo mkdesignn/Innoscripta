@@ -2,7 +2,7 @@
   width: 140px;
   box-sizing: border-box;
   height: 160px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: white;
   display: flex;
   justify-content: space-evenly;
@@ -10,6 +10,7 @@
   flex-direction: column;
   margin: 10px;
   cursor: pointer;
+  border:1px solid rgba(42,42,42,0.04);
 }
 
 .image {
@@ -28,4 +29,6 @@
 
 .name {
   text-align: center;
+  font-weight: bolder;
+  width:80%;
 }
