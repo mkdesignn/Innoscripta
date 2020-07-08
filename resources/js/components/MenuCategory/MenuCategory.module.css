@@ -1,7 +1,9 @@
 .container p {
   font-size: 30px;
   margin: 0 auto 10px;
+  padding: 20px 28px;
 }
+
 .catItemsContainer {
   width: 100%;
   display: flex;

@@ -3895,7 +3895,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".CategoryItems-module__container___3JYRs {\r\n  width: 80px;\r\n  height: 120px;\r\n  border-radius: 15px;\r\n  background-color: white;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: column;\r\n  cursor: pointer;\r\n}\r\n.CategoryItems-module__image___34hnc {\r\n  width: 50px;\r\n  height: 50px;\r\n  border: 1px solid rgba(94, 91, 91, 0.24);\r\n  border-radius: 10px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: white;\r\n}\r\n.CategoryItems-module__image___34hnc img {\r\n  height: 40px;\r\n  width: 40px;\r\n}\r\n.CategoryItems-module__name___3QAIL {\r\n  margin: 10px auto 5px;\r\n  color: rgba(94, 91, 91, 0.24);\r\n}\r\n", ""]);
+exports.push([module.i, ".CategoryItems-module__container___3JYRs {\n    width: 80px;\n    border-radius: 15px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    cursor: pointer;\n    padding: 11px 10px 16px 10px;\n}\n.CategoryItems-module__image___34hnc {\n    width: 100%;\n    height: 85px;\n    border: 1px solid rgba(42,42,42,0.04);\n    border-radius: 10px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n}\n.CategoryItems-module__image___34hnc img {\n  height: 40px;\n  width: 40px;\n}\n.CategoryItems-module__name___3QAIL {\n  margin: 10px auto 5px;\n  color: rgba(94, 91, 91, 0.24);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3918,7 +3918,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".ChooseOrder-module__container___l3Rcp {\r\n  margin-top: 20px;\r\n}\r\n.ChooseOrder-module__container___l3Rcp p {\r\n  font-size: 30px;\r\n  margin: 10px auto;\r\n}\r\n.ChooseOrder-module__orderItemsContainer___2Akh- {\r\n  width: 95%;\r\n  height: 60vh;\r\n  padding: 0 20px;\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: flex-start;\r\n  flex-wrap: wrap;\r\n  overflow: auto;\r\n}\r\n.ChooseOrder-module__loading___SrK4x {\r\n  width: 95%;\r\n  height: 60vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".ChooseOrder-module__container___l3Rcp {\n  margin-top: 20px;\n}\n.ChooseOrder-module__container___l3Rcp p {\n  font-size: 30px;\n  margin: 10px auto;\n  padding: 20px 28px;\n}\n.ChooseOrder-module__orderItemsContainer___2Akh- {\n  width: 95%;\n  /*height: 60vh;*/\n  padding: 0 20px;\n  display: flex;\n  justify-content: flex-start;\n  align-items: flex-start;\n  flex-wrap: wrap;\n  overflow: auto;\n}\n.ChooseOrder-module__loading___SrK4x {\n  width: 95%;\n  /*height: 60vh;*/\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3988,7 +3988,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Layout-module__container___R4TQG {\r\n  width: 100%;\r\n  height: 100vh;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.Layout-module__side___1hIwB {\r\n  width: 10%;\r\n  height: 100vh;\r\n}\r\n.Layout-module__mainArea___2aDOf {\r\n  width: 90%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: #fafafa;\r\n  overflow: hidden;\r\n}\r\n", ""]);
+exports.push([module.i, ".Layout-module__container___R4TQG {\n  width: 100%;\n  /*height: 100vh;*/\n  /*display: flex;*/\n  justify-content: space-between;\n  align-items: center;\n}\n\n.Layout-module__side___1hIwB {\n  width: 10%;\n    float:left;\n  /*height: 100vh;*/\n}\n.Layout-module__mainArea___2aDOf {\n  width: 90%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #fafafa;\n  overflow: hidden;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4032,7 +4032,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".MenuCategory-module__container___BU2Zs p {\r\n  font-size: 30px;\r\n  margin: 0 auto 10px;\r\n}\r\n.MenuCategory-module__catItemsContainer___3mxA6 {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  padding: 0 50px;\r\n  box-sizing: border-box;\r\n}\r\n", ""]);
+exports.push([module.i, ".MenuCategory-module__container___BU2Zs p {\n  font-size: 30px;\n  margin: 0 auto 10px;\n  padding: 20px 28px;\n}\n\n.MenuCategory-module__catItemsContainer___3mxA6 {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0 50px;\n  box-sizing: border-box;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4202,7 +4202,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderList-module__container___3n-23 {\r\n  width: 100%;\r\n  height: 100vh;\r\n  padding: 10px;\r\n  position: relative;\r\n  box-sizing: border-box;\r\n}\r\n.OrderList-module__header___E-xOU {\r\n  width: 100%;\r\n  height: 7vh;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n.OrderList-module__header___E-xOU img {\r\n  height: 30px;\r\n  width: 30px;\r\n  cursor: pointer;\r\n}\r\n.OrderList-module__container___3n-23 p {\r\n  font-size: 30px;\r\n  margin: 0;\r\n}\r\n.OrderList-module__cardsContainer___1kmAh {\r\n  width: 100%;\r\n  height: 60vh;\r\n  overflow: auto;\r\n  margin-top: 15px;\r\n  border-bottom: 1px dashed;\r\n}\r\n\r\n.OrderList-module__buttonContainer___2BAQ2 {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  position: absolute;\r\n  bottom: 10px;\r\n  left: 0;\r\n}\r\n.OrderList-module__factorPrice___MD6MP {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n}\r\n.OrderList-module__factorPrice___MD6MP p {\r\n  font-size: 15px;\r\n  font-weight: bold;\r\n}\r\n", ""]);
+exports.push([module.i, ".OrderList-module__container___3n-23 {\n  width: 100%;\n  /*height: 100vh;*/\n  padding: 10px;\n  position: relative;\n  box-sizing: border-box;\n}\n.OrderList-module__header___E-xOU {\n  width: 100%;\n  height: 7vh;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.OrderList-module__header___E-xOU img {\n  height: 30px;\n  width: 30px;\n  cursor: pointer;\n}\n.OrderList-module__container___3n-23 p {\n  font-size: 30px;\n  margin: 0;\n}\n.OrderList-module__cardsContainer___1kmAh {\n  width: 100%;\n  /*height: 60vh;*/\n  overflow: auto;\n  margin-top: 15px;\n  border-bottom: 1px dashed;\n}\n\n.OrderList-module__buttonContainer___2BAQ2 {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  bottom: 10px;\n  left: 0;\n}\n.OrderList-module__factorPrice___MD6MP {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.OrderList-module__factorPrice___MD6MP p {\n  font-size: 15px;\n  font-weight: bold;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4318,7 +4318,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Menu-module__container___R8o7w {\r\n  width: 100%;\r\n  height: 100vh;\r\n  display: flex;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.Menu-module__left___2ioQ6 {\r\n  width: 70%;\r\n  background-color: #fafafa;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  box-sizing: border-box;\r\n}\r\n.Menu-module__right___3SsI_ {\r\n  width: 30%;\r\n  background-color: white;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  box-sizing: border-box;\r\n}\r\n.Menu-module__loading___1xGji {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".Menu-module__container___R8o7w {\n  width: 100%;\n  /*height: 100vh;*/\n  display: flex;\n  box-sizing: border-box;\n}\n\n.Menu-module__left___2ioQ6 {\n  width: 70%;\n  background-color: #fafafa;\n  /*height: 100vh;*/\n  overflow: hidden;\n  box-sizing: border-box;\n}\n.Menu-module__right___3SsI_ {\n  width: 30%;\n  background-color: white;\n  /*height: 100vh;*/\n  overflow: hidden;\n  box-sizing: border-box;\n}\n.Menu-module__loading___1xGji {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4342,7 +4342,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderHistory-module__container____mZwF,\r\n.OrderHistory-module__orderContainer___2MdJh {\r\n  width: 100%;\r\n  padding: 10px;\r\n}\r\n.OrderHistory-module__container____mZwF {\r\n  height: 100vh;\r\n  overflow: hidden;\r\n}\r\n\r\n.OrderHistory-module__orderContainer___2MdJh {\r\n  height: 70vh;\r\n  overflow: auto;\r\n}\r\n.OrderHistory-module__loading___2HqIU {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".OrderHistory-module__container____mZwF,\n.OrderHistory-module__orderContainer___2MdJh {\n  width: 100%;\n  padding: 10px;\n}\n.OrderHistory-module__container____mZwF {\n  /*height: 100vh;*/\n  overflow: hidden;\n}\n\n.OrderHistory-module__orderContainer___2MdJh {\n  height: 70vh;\n  overflow: auto;\n}\n.OrderHistory-module__loading___2HqIU {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {

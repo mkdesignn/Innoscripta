@@ -4,10 +4,11 @@
 .container p {
   font-size: 30px;
   margin: 10px auto;
+  padding: 20px 28px;
 }
 .orderItemsContainer {
   width: 95%;
-  height: 60vh;
+  /*height: 60vh;*/
   padding: 0 20px;
   display: flex;
   justify-content: flex-start;
@@ -17,7 +18,7 @@
 }
 .loading {
   width: 95%;
-  height: 60vh;
+  /*height: 60vh;*/
   display: flex;
   justify-content: center;
   align-items: center;

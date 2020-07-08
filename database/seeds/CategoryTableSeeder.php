@@ -17,5 +17,7 @@ class CategoryTableSeeder extends Seeder
         factory(Category::class)->create(['name'=>'soft drink', 'slug'=>'soft-drink', 'description'=>'soft-drink product', 'image'=>'drink.png']);
         factory(Category::class)->create(['name'=>'coffee', 'slug'=>'coffee', 'description'=>'coffee products', 'image'=>'coffee.png']);
         factory(Category::class)->create(['name'=>'ice cream', 'slug'=>'ice-cream', 'description'=>'ice-cream products', 'image'=>'ice-cream.png']);
+        factory(Category::class)->create(['name'=>'snack', 'slug'=>'snack', 'description'=>'snack products', 'image'=>'snack.png']);
+        factory(Category::class)->create(['name'=>'salad', 'slug'=>'salad', 'description'=>'salad products', 'image'=>'salad.png']);
     }
 }
