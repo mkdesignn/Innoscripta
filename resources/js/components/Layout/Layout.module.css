@@ -1,22 +1,23 @@
 .container {
-  width: 100%;
-  /*height: 100vh;*/
-  /*display: flex;*/
-  justify-content: space-between;
-  align-items: center;
+    width: 100%;
+    /*height: 100vh;*/
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: center;
 }
 
 .side {
-  width: 10%;
-    float:left;
-  /*height: 100vh;*/
+    width: 10%;
+    float: left;
+    /*height: 100vh;*/
 }
+
 .mainArea {
-  width: 90%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fafafa;
-  overflow: hidden;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    overflow: hidden;
 }

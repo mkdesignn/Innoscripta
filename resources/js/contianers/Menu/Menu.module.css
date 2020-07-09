@@ -1,28 +1,30 @@
 .container {
-  width: 100%;
-  /*height: 100vh;*/
-  display: flex;
-  box-sizing: border-box;
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    box-sizing: border-box;
 }
 
 .left {
-  width: 70%;
-  background-color: #fafafa;
-  /*height: 100vh;*/
-  overflow: hidden;
-  box-sizing: border-box;
+    width: 70%;
+    background-color: #fafafa;
+    /*height: 100vh;*/
+    overflow: hidden;
+    box-sizing: border-box;
 }
+
 .right {
-  width: 30%;
-  background-color: white;
-  /*height: 100vh;*/
-  overflow: hidden;
-  box-sizing: border-box;
+    width: 30%;
+    background-color: white;
+    /*height: 100vh;*/
+    overflow: hidden;
+    box-sizing: border-box;
 }
+
 .loading {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

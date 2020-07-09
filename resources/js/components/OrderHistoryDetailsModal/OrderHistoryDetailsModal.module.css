@@ -1,47 +1,53 @@
 .container {
-  width: 100%;
-  overflow: auto;
-  margin: 20px auto;
+    width: 100%;
+    overflow: auto;
+    margin: 20px auto;
 }
+
 .all {
-  background-color: rgb(255, 218, 108);
-  width: 100%;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+    background-color: rgb(255, 218, 108);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
+
 .buttonContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
 }
+
 .top {
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 28px;
 }
+
 .bottom,
 .top {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  text-align: justify;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
 }
+
 .bottom {
-  background-color: white;
-  border-radius: 20px 20px 10px 10px;
-  position: relative;
+    background-color: white;
+    border-radius: 20px 20px 10px 10px;
+    position: relative;
 }
+
 .totalPrice {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  border-top: 1px dashed black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-top: 1px dashed black;
 }

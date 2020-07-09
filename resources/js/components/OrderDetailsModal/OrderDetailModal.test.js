@@ -5,7 +5,8 @@ import '@testing-library/jest-dom/extend-expect'
 import '@testing-library/jest-dom';
 import {configure, shallow} from "enzyme";
 import Adapter from 'enzyme-adapter-react-16';
-configure({adapter: new Adapter() });
+
+configure({adapter: new Adapter()});
 import OrderItems from "./OrderItems";
 
 describe('Test orderItems component', () => {
@@ -18,7 +19,8 @@ describe('Test orderItems component', () => {
             price: 'price',
             id: 1
         };
-        let wrapper = shallow(<OrderItems onOrderClick={() => function(id){} } item={item}/>);
+        let wrapper = shallow(<OrderItems onOrderClick={() => function (id) {
+        }} item={item}/>);
         expect(wrapper.find("[data-testid='orderItems']")).toHaveLength(1);
     });
 

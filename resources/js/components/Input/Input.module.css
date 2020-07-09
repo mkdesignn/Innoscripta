@@ -1,52 +1,57 @@
 .container {
-  width: 90%;
-  margin: 10px auto;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  position: relative;
-  flex-shrink: 0;
-  min-height: 50px;
-  box-sizing: border-box;
-}
-input {
-  border-radius: 5px;
-  width: 100%;
-  max-height: 40px;
-  min-height: 30px;
-  padding: 10px;
-  margin: 10px 0;
-  position: relative;
-  flex-shrink: 0;
-  box-sizing: border-box;
-  outline:none;
-  border: 1px solid rgba(42,42,42,.1)
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    flex-shrink: 0;
+    min-height: 50px;
+    box-sizing: border-box;
 }
 
-input:focus{
-    box-shadow: 0px 0px 10px 1px rgba(42,42,42,0.04);
+input {
+    border-radius: 5px;
+    width: 100%;
+    max-height: 40px;
+    min-height: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid rgba(42, 42, 42, .1)
+}
+
+input:focus {
+    box-shadow: 0px 0px 10px 1px rgba(42, 42, 42, 0.04);
 }
 
 input::placeholder {
-  font-size: 13px;
+    font-size: 13px;
 }
+
 label {
-  font-weight: 600;
+    font-weight: 600;
 }
+
 .innerClass {
-  position: absolute;
-  top: 43px;
-  left: 18px;
+    position: absolute;
+    top: 43px;
+    left: 18px;
 }
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-  .innerClass {
-    top: 36px;
-  }
-  .container {
-    margin: 20px auto;
-  }
+    .innerClass {
+        top: 36px;
+    }
+
+    .container {
+        margin: 20px auto;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */

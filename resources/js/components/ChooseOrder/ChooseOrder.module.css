@@ -1,25 +1,28 @@
 .container {
-  margin-top: 20px;
+    margin-top: 20px;
 }
+
 .container p {
-  font-size: 30px;
-  margin: 10px auto;
-  padding: 20px 28px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 20px 28px;
 }
+
 .orderItemsContainer {
-  width: 95%;
-  /*height: 60vh;*/
-  padding: 0 20px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  overflow: auto;
+    width: 95%;
+    /*height: 60vh;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 0 20px 100px;
 }
+
 .loading {
-  width: 95%;
-  /*height: 60vh;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 95%;
+    /*height: 60vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

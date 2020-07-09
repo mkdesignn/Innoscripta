@@ -3804,7 +3804,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Backdrop-module__Backdrop___15yM_ {\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  z-index: 1001;\n  left: 0;\n  top: 0;\n  background-color: rgba(148, 142, 142, 0.67);\n  opacity: 1;\n  transition: opacity 3s ease;\n}\n", ""]);
+exports.push([module.i, ".Backdrop-module__Backdrop___15yM_ {\n    width: 100%;\n    height: 100%;\n    position: fixed;\n    z-index: 1001;\n    left: 0;\n    top: 0;\n    background-color: rgba(148, 142, 142, 0.67);\n    opacity: 1;\n    transition: opacity 3s ease;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3825,7 +3825,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Button-module__container___2B3Td {\r\n  width: 100%;\r\n  height: 50px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: rgb(255, 218, 108);\r\n  color: white;\r\n  border-radius: 5px;\r\n  cursor: pointer;\r\n  margin: 10px;\r\n  font-size: 20px;\r\n  font-weight: 600;\r\n}\r\n", ""]);
+exports.push([module.i, ".Button-module__container___2B3Td {\n    width: 100%;\n    height: 50px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: rgb(255, 218, 108);\n    color: white;\n    border-radius: 5px;\n    cursor: pointer;\n    margin: 10px;\n    font-size: 20px;\n    font-weight: 600;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3846,7 +3846,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".CardOrder-module__container___2EWyU {\r\n  width: 100%;\r\n  height: 75px;\r\n  margin: 5px 0;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  align-items: center;\r\n  padding: 0 5px;\r\n  box-sizing: border-box;\r\n  border-radius: 20px;\r\n}\r\n.CardOrder-module__image___32S9O {\r\n  height: 50px;\r\n  width: 50px;\r\n  border-radius: 50%;\r\n  flex-shrink: 0;\r\n  flex-grow: 0;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  overflow: hidden;\r\n}\r\n.CardOrder-module__image___32S9O img {\r\n  width: 50px;\r\n  height: 50px;\r\n}\r\n.CardOrder-module__count___nr4zq {\r\n  width: 15%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  font-weight: 600px;\r\n}\r\n.CardOrder-module__totalPrice___8ei0O {\r\n  width: 20%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  color: rgba(94, 91, 91, 0.24);\r\n}\r\n.CardOrder-module__title___32b_5 {\r\n  width: 45%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: flex-start;\r\n  flex-direction: column;\r\n}\r\n\r\n.CardOrder-module__title___32b_5 p {\r\n  font-size: 15px;\r\n  font-weight: 700;\r\n  line-height: 25px;\r\n}\r\n", ""]);
+exports.push([module.i, ".CardOrder-module__container___2EWyU {\n    width: 100%;\n    height: 75px;\n    margin: 5px 0;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    align-items: center;\n    padding: 0 5px;\n    box-sizing: border-box;\n    border-radius: 5px;\n}\n\n.CardOrder-module__image___32S9O {\n    height: 50px;\n    width: 50px;\n    border-radius: 50%;\n    flex-shrink: 0;\n    flex-grow: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    overflow: hidden;\n}\n\n.CardOrder-module__image___32S9O img {\n    width: 50px;\n    height: 50px;\n}\n\n.CardOrder-module__count___nr4zq {\n    width: 15%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-weight: 600px;\n}\n\n.CardOrder-module__totalPrice___8ei0O {\n    width: 20%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: rgba(94, 91, 91, 0.24);\n}\n\n.CardOrder-module__title___32b_5 {\n    width: 45%;\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    flex-direction: column;\n}\n\n.CardOrder-module__title___32b_5 p {\n    font-size: 15px;\n    font-weight: 700;\n    line-height: 25px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3871,7 +3871,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".CardOrderHistory-module__container___15q3Z {\r\n  width: 90%;\r\n  height: 55px;\r\n  margin: 10px auto;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  align-items: center;\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n  border-radius: 20px;\r\n  box-shadow: 0px 0px 4px 1px #0000004a;\r\n}\r\n\r\n.CardOrderHistory-module__count___1Iufa {\r\n  width: 15%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  font-weight: 600px;\r\n}\r\n.CardOrderHistory-module__totalPrice___222qc {\r\n  width: 20%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  color: rgba(94, 91, 91, 0.24);\r\n}\r\n.CardOrderHistory-module__title___2Gu3_ {\r\n  width: 50%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: flex-start;\r\n  flex-direction: column;\r\n}\r\n\r\n.CardOrderHistory-module__title___2Gu3_ p {\r\n  font-size: 15px;\r\n  font-weight: 700;\r\n  line-height: 25px;\r\n  margin: 0;\r\n}\r\n", ""]);
+exports.push([module.i, ".CardOrderHistory-module__container___15q3Z {\n    width: 90%;\n    height: 55px;\n    margin: 10px auto;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px;\n    box-sizing: border-box;\n    border-radius: 5px;\n    box-shadow: 0px 0px 4px 1px rgba(42, 42, 42, 0.03);\n    border: 1px solid rgba(42, 42, 42, .1);\n}\n\n.CardOrderHistory-module__count___1Iufa {\n    width: 15%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-weight: 600px;\n}\n\n.CardOrderHistory-module__totalPrice___222qc {\n    width: 20%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: rgba(94, 91, 91, 0.24);\n}\n\n.CardOrderHistory-module__title___2Gu3_ {\n    width: 50%;\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    flex-direction: column;\n}\n\n.CardOrderHistory-module__title___2Gu3_ p {\n    font-size: 15px;\n    font-weight: 700;\n    line-height: 25px;\n    margin: 0;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3895,7 +3895,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".CategoryItems-module__container___3JYRs {\n    width: 80px;\n    border-radius: 15px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    cursor: pointer;\n    padding: 11px 10px 16px 10px;\n}\n.CategoryItems-module__image___34hnc {\n    width: 100%;\n    height: 85px;\n    border: 1px solid rgba(42,42,42,0.04);\n    border-radius: 10px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n}\n.CategoryItems-module__image___34hnc img {\n  height: 40px;\n  width: 40px;\n}\n.CategoryItems-module__name___3QAIL {\n  margin: 10px auto 5px;\n  color: rgba(94, 91, 91, 0.24);\n}\n", ""]);
+exports.push([module.i, ".CategoryItems-module__container___3JYRs {\n    width: 80px;\n    border-radius: 15px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    cursor: pointer;\n    padding: 11px 10px 16px 10px;\n}\n\n.CategoryItems-module__image___34hnc {\n    width: 100%;\n    height: 85px;\n    border: 1px solid rgba(42, 42, 42, 0.04);\n    border-radius: 10px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n}\n\n.CategoryItems-module__image___34hnc img {\n    height: 40px;\n    width: 40px;\n}\n\n.CategoryItems-module__name___3QAIL {\n    margin: 10px auto 5px;\n    color: rgba(94, 91, 91, 0.24);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3918,7 +3918,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".ChooseOrder-module__container___l3Rcp {\n  margin-top: 20px;\n}\n.ChooseOrder-module__container___l3Rcp p {\n  font-size: 30px;\n  margin: 10px auto;\n  padding: 20px 28px;\n}\n.ChooseOrder-module__orderItemsContainer___2Akh- {\n  width: 95%;\n  /*height: 60vh;*/\n  padding: 0 20px;\n  display: flex;\n  justify-content: flex-start;\n  align-items: flex-start;\n  flex-wrap: wrap;\n  overflow: auto;\n}\n.ChooseOrder-module__loading___SrK4x {\n  width: 95%;\n  /*height: 60vh;*/\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
+exports.push([module.i, ".ChooseOrder-module__container___l3Rcp {\n    margin-top: 20px;\n}\n\n.ChooseOrder-module__container___l3Rcp p {\n    font-size: 30px;\n    margin: 10px auto;\n    padding: 20px 28px;\n}\n\n.ChooseOrder-module__orderItemsContainer___2Akh- {\n    width: 95%;\n    /*height: 60vh;*/\n    display: flex;\n    justify-content: flex-start;\n    align-items: flex-start;\n    flex-wrap: wrap;\n    overflow: auto;\n    padding: 0 20px 100px;\n}\n\n.ChooseOrder-module__loading___SrK4x {\n    width: 95%;\n    /*height: 60vh;*/\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3941,7 +3941,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".HistoryItem-module__container___34FFX {\n  width: 95%;\n  height: 70px;\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: white;\n  margin: 5px auto;\n  cursor: pointer;\n}\n.HistoryItem-module__container___34FFX:hover {\n  background-color: rgba(251, 236, 191, 0.65);\n}\n.HistoryItem-module__headerContainer___1OKEq {\n  width: 95%;\n  height: 60px;\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: rgb(255, 218, 108);\n  margin: 15px auto;\n  font-size: 20px;\n  font-weight: bold;\n  color: white;\n}\n.HistoryItem-module__date___3oofZ,\n.HistoryItem-module__number___1ATmg,\n.HistoryItem-module__totalPrice___GQ3er {\n  width: 30%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
+exports.push([module.i, ".HistoryItem-module__container___34FFX {\n    width: 95%;\n    height: 70px;\n    border-radius: 10px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    background-color: white;\n    margin: 5px auto;\n    cursor: pointer;\n}\n\n.HistoryItem-module__container___34FFX:hover {\n    background-color: rgba(251, 236, 191, 0.65);\n}\n\n.HistoryItem-module__headerContainer___1OKEq {\n    width: 95%;\n    height: 60px;\n    border-radius: 10px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    background-color: rgb(255, 218, 108);\n    margin: 15px auto;\n    font-size: 20px;\n    font-weight: bold;\n    color: white;\n}\n\n.HistoryItem-module__date___3oofZ,\n.HistoryItem-module__number___1ATmg,\n.HistoryItem-module__totalPrice___GQ3er {\n    width: 30%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3966,7 +3966,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Input-module__container___1Jw6U {\n  width: 90%;\n  margin: 10px auto;\n  display: flex;\n  justify-content: flex-start;\n  align-items: flex-start;\n  flex-direction: column;\n  position: relative;\n  flex-shrink: 0;\n  min-height: 50px;\n  box-sizing: border-box;\n}\ninput {\n  border-radius: 5px;\n  width: 100%;\n  max-height: 40px;\n  min-height: 30px;\n  padding: 10px;\n  margin: 10px 0;\n  position: relative;\n  flex-shrink: 0;\n  box-sizing: border-box;\n  outline:none;\n  border: 1px solid rgba(42,42,42,.1)\n}\n\ninput:focus{\n    box-shadow: 0px 0px 10px 1px rgba(42,42,42,0.04);\n}\n\ninput::placeholder {\n  font-size: 13px;\n}\nlabel {\n  font-weight: 600;\n}\n.Input-module__innerClass___2vTkj {\n  position: absolute;\n  top: 43px;\n  left: 18px;\n}\n/* Extra small devices (portrait phones, less than 576px) */\n@media (max-width: 575px) {\n  .Input-module__innerClass___2vTkj {\n    top: 36px;\n  }\n  .Input-module__container___1Jw6U {\n    margin: 20px auto;\n  }\n}\n\n/* Small devices (landscape phones, 576px and up) */\n@media (min-width: 576px) and (max-width: 767px) {\n}\n\n/* Medium devices (tablets, 768px and up) */\n@media (min-width: 768px) and (max-width: 991px) {\n}\n\n/* Large devices (desktops, 992px and up) */\n@media (min-width: 992px) and (max-width: 1200px) {\n}\n\n/* Extra large devices (large desktops, 1200px and up) */\n@media (min-width: 1201px) {\n}\n", ""]);
+exports.push([module.i, ".Input-module__container___1Jw6U {\n    width: 90%;\n    margin: 10px auto;\n    display: flex;\n    justify-content: flex-start;\n    align-items: flex-start;\n    flex-direction: column;\n    position: relative;\n    flex-shrink: 0;\n    min-height: 50px;\n    box-sizing: border-box;\n}\n\ninput {\n    border-radius: 5px;\n    width: 100%;\n    max-height: 40px;\n    min-height: 30px;\n    padding: 10px;\n    margin: 10px 0;\n    position: relative;\n    flex-shrink: 0;\n    box-sizing: border-box;\n    outline: none;\n    border: 1px solid rgba(42, 42, 42, .1)\n}\n\ninput:focus {\n    box-shadow: 0px 0px 10px 1px rgba(42, 42, 42, 0.04);\n}\n\ninput::placeholder {\n    font-size: 13px;\n}\n\nlabel {\n    font-weight: 600;\n}\n\n.Input-module__innerClass___2vTkj {\n    position: absolute;\n    top: 43px;\n    left: 18px;\n}\n\n/* Extra small devices (portrait phones, less than 576px) */\n@media (max-width: 575px) {\n    .Input-module__innerClass___2vTkj {\n        top: 36px;\n    }\n\n    .Input-module__container___1Jw6U {\n        margin: 20px auto;\n    }\n}\n\n/* Small devices (landscape phones, 576px and up) */\n@media (min-width: 576px) and (max-width: 767px) {\n}\n\n/* Medium devices (tablets, 768px and up) */\n@media (min-width: 768px) and (max-width: 991px) {\n}\n\n/* Large devices (desktops, 992px and up) */\n@media (min-width: 992px) and (max-width: 1200px) {\n}\n\n/* Extra large devices (large desktops, 1200px and up) */\n@media (min-width: 1201px) {\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -3988,7 +3988,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Layout-module__container___R4TQG {\n  width: 100%;\n  /*height: 100vh;*/\n  /*display: flex;*/\n  justify-content: space-between;\n  align-items: center;\n}\n\n.Layout-module__side___1hIwB {\n  width: 10%;\n    float:left;\n  /*height: 100vh;*/\n}\n.Layout-module__mainArea___2aDOf {\n  width: 90%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #fafafa;\n  overflow: hidden;\n}\n", ""]);
+exports.push([module.i, ".Layout-module__container___R4TQG {\n    width: 100%;\n    /*height: 100vh;*/\n    /*display: flex;*/\n    justify-content: space-between;\n    align-items: center;\n}\n\n.Layout-module__side___1hIwB {\n    width: 10%;\n    float: left;\n    /*height: 100vh;*/\n}\n\n.Layout-module__mainArea___2aDOf {\n    width: 90%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #fafafa;\n    overflow: hidden;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4011,7 +4011,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".ListContainer-module__container___2nCPh {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-direction: column;\n  margin: 0 auto;\n\n  width: 90%;\n}\n.ListContainer-module__container___2nCPh a {\n  color: rgb(73, 102, 134);\n  text-decoration: none !important;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 70px;\n  width: 90%;\n  overflow: hidden;\n  margin: 10px auto;\n  padding: 10px 0;\n  border-radius: 10px;\n}\n.ListContainer-module__container___2nCPh a:hover,\n.ListContainer-module__container___2nCPh a:focus {\n  color: rgb(73, 102, 134);\n}\n", ""]);
+exports.push([module.i, ".ListContainer-module__container___2nCPh {\n    display: flex;\n    justify-content: flex-start;\n    align-items: center;\n    flex-direction: column;\n    margin: 0 auto;\n\n    width: 90%;\n}\n\n.ListContainer-module__container___2nCPh a {\n    color: rgb(73, 102, 134);\n    text-decoration: none !important;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    height: 70px;\n    width: 90%;\n    overflow: hidden;\n    margin: 10px auto;\n    padding: 10px 0;\n    border-radius: 10px;\n}\n\n.ListContainer-module__container___2nCPh a:hover,\n.ListContainer-module__container___2nCPh a:focus {\n    color: rgb(73, 102, 134);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4032,7 +4032,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".MenuCategory-module__container___BU2Zs p {\n  font-size: 30px;\n  margin: 0 auto 10px;\n  padding: 20px 28px;\n}\n\n.MenuCategory-module__catItemsContainer___3mxA6 {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0 29px;\n  box-sizing: border-box;\n}\n", ""]);
+exports.push([module.i, ".MenuCategory-module__container___BU2Zs p {\n    font-size: 30px;\n    margin: 0 auto 10px;\n    padding: 20px 28px;\n}\n\n.MenuCategory-module__catItemsContainer___3mxA6 {\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 29px;\n    box-sizing: border-box;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4054,7 +4054,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".MenuItems-module__container___2Uchp {\r\n  padding: 10px;\r\n}\r\n", ""]);
+exports.push([module.i, ".MenuItems-module__container___2Uchp {\n    padding: 10px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4075,7 +4075,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Modal-module__Modal___19Tmp {\r\n  position: absolute;\r\n  z-index: 1001;\r\n  background-color: white;\r\n  width: 90%;\r\n  border: 1px solid #ccc;\r\n  box-shadow: 0px 0px 10px 1px #0000004a;\r\n  padding: 16px;\r\n  left: 50%;\r\n  top: 50%;\r\n  box-sizing: border-box;\r\n  border-radius: 10px;\r\n  transition: all 0.5s ease-in;\r\n  transform: translate(-50%, -50%);\r\n}\r\n.Modal-module__close___3uXly {\r\n  width: 5vw;\r\n}\r\n", ""]);
+exports.push([module.i, ".Modal-module__Modal___19Tmp {\n    position: fixed;\n    z-index: 1001;\n    background-color: white;\n    width: 90%;\n    border: 1px solid #ccc;\n    box-shadow: 0px 0px 10px 1px #0000004a;\n    padding: 16px;\n    left: 50%;\n    top: 50%;\n    box-sizing: border-box;\n    border-radius: 10px;\n    transition: all 0.5s ease-in;\n    transform: translate(-50%, -50%);\n}\n\n.Modal-module__close___3uXly {\n    width: 5vw;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4097,7 +4097,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".NextErrorModal-module__container___2TcD- {\n  background-color: rgb(255, 218, 108);\n  width: 100%;\n  /*height: 100%;*/\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n.NextErrorModal-module__top___1kbuG {\n  height: 15%;\n  font-size: 30px;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.NextErrorModal-module__bottom___39T1n,\n.NextErrorModal-module__top___1kbuG {\n  width: 100%;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.NextErrorModal-module__bottom___39T1n {\n  height: 85%;\n  background-color: white;\n  border-radius: 20px 20px 10px 10px;\n  /*position: relative;*/\n  /*display: flex;*/\n  justify-content: center;\n}\n\n.NextErrorModal-module__bottom___39T1n h4{\n    text-align: center;\n}\n\n.NextErrorModal-module__buttonContainer___22A1V {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  /*position: absolute;*/\n  bottom: 10px;\n  left: 0;\n}\n.NextErrorModal-module__loading___3b7CF {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
+exports.push([module.i, ".NextErrorModal-module__container___2TcD- {\n    background-color: rgb(255, 218, 108);\n    width: 100%;\n    /*height: 100%;*/\n    border-radius: 10px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-direction: column;\n}\n\n.NextErrorModal-module__top___1kbuG {\n    height: 15%;\n    font-size: 30px;\n    text-align: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.NextErrorModal-module__bottom___39T1n,\n.NextErrorModal-module__top___1kbuG {\n    width: 100%;\n    padding: 10px;\n    box-sizing: border-box;\n}\n\n.NextErrorModal-module__bottom___39T1n {\n    height: 85%;\n    background-color: white;\n    border-radius: 20px 20px 10px 10px;\n    /*position: relative;*/\n    /*display: flex;*/\n    justify-content: center;\n}\n\n.NextErrorModal-module__bottom___39T1n h4 {\n    text-align: center;\n}\n\n.NextErrorModal-module__buttonContainer___22A1V {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    /*position: absolute;*/\n    bottom: 10px;\n    left: 0;\n}\n\n.NextErrorModal-module__loading___3b7CF {\n    width: 100%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4122,7 +4122,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderDetailsModal-module__container___1KzJe {\n  background-color: rgb(255, 218, 108);\n  width: 100%;\n  height: 100%;\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n.OrderDetailsModal-module__top___3f1SB {\n  height: 200px;\n}\n.OrderDetailsModal-module__bottom___2VEAI,\n.OrderDetailsModal-module__top___3f1SB {\n  width: 100%;\n  padding: 10px;\n  box-sizing: border-box;\n  text-align: justify;\n}\n\n.OrderDetailsModal-module__top___3f1SB p,\n.OrderDetailsModal-module__top___3f1SB h4,\n.OrderDetailsModal-module__bottom___2VEAI h4,\n.OrderDetailsModal-module__bottom___2VEAI p {\n  margin: 5px;\n}\n\n.OrderDetailsModal-module__top___3f1SB p,\n.OrderDetailsModal-module__bottom___2VEAI p{\n    line-height: 1.4;\n    margin-top:25px;\n}\n\n.OrderDetailsModal-module__bottom___2VEAI {\n  height: 350px;\n  background-color: white;\n  border-radius: 20px 20px 10px 10px;\n  position: relative;\n}\n.OrderDetailsModal-module__image___24l9B {\n  height: 150px;\n  width: 150px;\n  position: absolute;\n  top: 0%;\n  left: 50%;\n  border-radius: 50%;\n  overflow: hidden;\n  transform: translate(-50%, -50%);\n}\n.OrderDetailsModal-module__image___24l9B img {\n  height: 150px;\n  width: 150px;\n}\n.OrderDetailsModal-module__bottomHeader___TBYUD {\n  padding-top: 25px;\n  padding-bottom: 15px;\n  box-sizing: border-box;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin:5px;\n}\n.OrderDetailsModal-module__bottomHeader___TBYUD span {\n  font-weight: 600;\n}\n.OrderDetailsModal-module__bottomFooter___3atpP {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px;\n  position: absolute;\n  bottom: 80px;\n  left: 0;\n  box-sizing: border-box;\n}\n.OrderDetailsModal-module__bottomFooter___3atpP h3 {\n  margin: 0;\n}\n\n.OrderDetailsModal-module__count___RZvAZ,\n.OrderDetailsModal-module__price___5qDnx {\n  width: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.OrderDetailsModal-module__buttonContainer___2SzkL {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  bottom: 10px;\n}\n.OrderDetailsModal-module__plus___1rxzo {\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgb(255, 218, 108);\n  cursor: pointer;\n  user-select: none;\n}\n.OrderDetailsModal-module__countNum___24c48 {\n  width: 30px;\n  height: 30px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.OrderDetailsModal-module__plus___1rxzo p {\n  font-size: 30px;\n  /*height: 25px;*/\n  line-height: 0;\n  color: white;\n  font-weight: 700;\n  text-align: center;\n  user-select: none;\n  margin-top:2px;\n}\n", ""]);
+exports.push([module.i, ".OrderDetailsModal-module__container___1KzJe {\n    background-color: rgb(255, 218, 108);\n    width: 100%;\n    height: 100%;\n    border-radius: 10px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-direction: column;\n}\n\n.OrderDetailsModal-module__top___3f1SB {\n    height: 200px;\n}\n\n.OrderDetailsModal-module__bottom___2VEAI,\n.OrderDetailsModal-module__top___3f1SB {\n    width: 100%;\n    padding: 10px;\n    box-sizing: border-box;\n    text-align: justify;\n}\n\n.OrderDetailsModal-module__top___3f1SB p,\n.OrderDetailsModal-module__top___3f1SB h4,\n.OrderDetailsModal-module__bottom___2VEAI h4,\n.OrderDetailsModal-module__bottom___2VEAI p {\n    margin: 5px;\n}\n\n.OrderDetailsModal-module__top___3f1SB p,\n.OrderDetailsModal-module__bottom___2VEAI p {\n    line-height: 1.4;\n    margin-top: 25px;\n}\n\n.OrderDetailsModal-module__bottom___2VEAI {\n    height: 350px;\n    background-color: white;\n    border-radius: 20px 20px 10px 10px;\n    position: relative;\n}\n\n.OrderDetailsModal-module__image___24l9B {\n    height: 150px;\n    width: 150px;\n    position: absolute;\n    top: 0%;\n    left: 50%;\n    border-radius: 50%;\n    overflow: hidden;\n    transform: translate(-50%, -50%);\n}\n\n.OrderDetailsModal-module__image___24l9B img {\n    height: 150px;\n    width: 150px;\n}\n\n.OrderDetailsModal-module__bottomHeader___TBYUD {\n    padding-top: 25px;\n    padding-bottom: 15px;\n    box-sizing: border-box;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin: 5px;\n}\n\n.OrderDetailsModal-module__bottomHeader___TBYUD span {\n    font-weight: 600;\n}\n\n.OrderDetailsModal-module__bottomFooter___3atpP {\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px;\n    position: absolute;\n    bottom: 80px;\n    left: 0;\n    box-sizing: border-box;\n}\n\n.OrderDetailsModal-module__bottomFooter___3atpP h3 {\n    margin: 0;\n}\n\n.OrderDetailsModal-module__count___RZvAZ,\n.OrderDetailsModal-module__price___5qDnx {\n    width: 50%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.OrderDetailsModal-module__buttonContainer___2SzkL {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    position: absolute;\n    bottom: 10px;\n}\n\n.OrderDetailsModal-module__plus___1rxzo {\n    width: 30px;\n    height: 30px;\n    border-radius: 50%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: rgb(255, 218, 108);\n    cursor: pointer;\n    user-select: none;\n}\n\n.OrderDetailsModal-module__countNum___24c48 {\n    width: 30px;\n    height: 30px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.OrderDetailsModal-module__plus___1rxzo p {\n    font-size: 30px;\n    /*height: 25px;*/\n    line-height: 0;\n    color: white;\n    font-weight: 700;\n    text-align: center;\n    user-select: none;\n    margin-top: 2px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4153,7 +4153,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderHistoryDetailsModal-module__container___1OrGx {\n  width: 100%;\n  overflow: auto;\n  margin: 20px auto;\n}\n.OrderHistoryDetailsModal-module__all___1emdw {\n  background-color: rgb(255, 218, 108);\n  width: 100%;\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n.OrderHistoryDetailsModal-module__buttonContainer___1-Mjz {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  bottom: 10px;\n}\n.OrderHistoryDetailsModal-module__top___2keY3 {\n  font-size: 15px;\n  font-weight: bold;\n  line-height: 28px;\n}\n.OrderHistoryDetailsModal-module__bottom___23sBq,\n.OrderHistoryDetailsModal-module__top___2keY3 {\n  width: 100%;\n  padding: 10px;\n  box-sizing: border-box;\n  text-align: justify;\n}\n.OrderHistoryDetailsModal-module__bottom___23sBq {\n  background-color: white;\n  border-radius: 20px 20px 10px 10px;\n  position: relative;\n}\n.OrderHistoryDetailsModal-module__totalPrice___3Tm8y {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px 20px;\n  box-sizing: border-box;\n  border-top: 1px dashed black;\n}\n", ""]);
+exports.push([module.i, ".OrderHistoryDetailsModal-module__container___1OrGx {\n    width: 100%;\n    overflow: auto;\n    margin: 20px auto;\n}\n\n.OrderHistoryDetailsModal-module__all___1emdw {\n    background-color: rgb(255, 218, 108);\n    width: 100%;\n    border-radius: 10px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-direction: column;\n}\n\n.OrderHistoryDetailsModal-module__buttonContainer___1-Mjz {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    bottom: 10px;\n}\n\n.OrderHistoryDetailsModal-module__top___2keY3 {\n    font-size: 15px;\n    font-weight: bold;\n    line-height: 28px;\n}\n\n.OrderHistoryDetailsModal-module__bottom___23sBq,\n.OrderHistoryDetailsModal-module__top___2keY3 {\n    width: 100%;\n    padding: 10px;\n    box-sizing: border-box;\n    text-align: justify;\n}\n\n.OrderHistoryDetailsModal-module__bottom___23sBq {\n    background-color: white;\n    border-radius: 20px 20px 10px 10px;\n    position: relative;\n}\n\n.OrderHistoryDetailsModal-module__totalPrice___3Tm8y {\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px 20px;\n    box-sizing: border-box;\n    border-top: 1px dashed black;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4179,7 +4179,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderItems-module__container___TLOVm {\n  width: 140px;\n  box-sizing: border-box;\n  height: 160px;\n  border-radius: 10px;\n  background-color: white;\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  flex-direction: column;\n  margin: 10px;\n  cursor: pointer;\n  border:1px solid rgba(42,42,42,0.04);\n}\n\n.OrderItems-module__image___2UfN0 {\n  height: 70px;\n  width: 70px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n}\n.OrderItems-module__image___2UfN0 img {\n  width: 70px;\n  height: 70px;\n}\n\n.OrderItems-module__name___32FpV {\n  text-align: center;\n  font-weight: bolder;\n  width:80%;\n}\n", ""]);
+exports.push([module.i, ".OrderItems-module__container___TLOVm {\n    width: 140px;\n    box-sizing: border-box;\n    height: 160px;\n    border-radius: 10px;\n    background-color: white;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    flex-direction: column;\n    margin: 10px;\n    cursor: pointer;\n    border: 1px solid rgba(42, 42, 42, 0.04);\n}\n\n.OrderItems-module__image___2UfN0 {\n    height: 70px;\n    width: 70px;\n    border-radius: 50%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    overflow: hidden;\n}\n\n.OrderItems-module__image___2UfN0 img {\n    width: 70px;\n    height: 70px;\n}\n\n.OrderItems-module__name___32FpV {\n    text-align: center;\n    font-weight: bolder;\n    width: 80%;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4202,7 +4202,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderList-module__container___3n-23 {\n  width: 100%;\n  /*height: 100vh;*/\n  padding: 10px;\n  position: relative;\n  box-sizing: border-box;\n}\n.OrderList-module__header___E-xOU {\n  width: 100%;\n  height: 7vh;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.OrderList-module__header___E-xOU img {\n  height: 30px;\n  width: 30px;\n  cursor: pointer;\n}\n.OrderList-module__container___3n-23 p {\n  font-size: 30px;\n  margin: 0;\n}\n.OrderList-module__cardsContainer___1kmAh {\n  width: 100%;\n  /*height: 60vh;*/\n  overflow: auto;\n  margin-top: 15px;\n  border-bottom: 1px dashed rgba(42,42,42,.2);\n}\n\n.OrderList-module__buttonContainer___2BAQ2 {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  /*position: absolute;*/\n  bottom: 10px;\n  left: 0;\n}\n.OrderList-module__factorPrice___MD6MP {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.OrderList-module__factorPrice___MD6MP p {\n  font-size: 15px;\n  font-weight: bold;\n}\n", ""]);
+exports.push([module.i, ".OrderList-module__container___3n-23 {\n    width: 100%;\n    /*height: 100vh;*/\n    padding: 10px;\n    position: relative;\n    box-sizing: border-box;\n}\n\n.OrderList-module__header___E-xOU {\n    width: 100%;\n    height: 7vh;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n\n.OrderList-module__header___E-xOU img {\n    height: 30px;\n    width: 30px;\n    cursor: pointer;\n}\n\n.OrderList-module__container___3n-23 p {\n    font-size: 30px;\n    margin: 0;\n}\n\n.OrderList-module__cardsContainer___1kmAh {\n    width: 100%;\n    /*height: 60vh;*/\n    overflow: auto;\n    margin-top: 15px;\n    border-bottom: 1px dashed rgba(42, 42, 42, .2);\n}\n\n.OrderList-module__buttonContainer___2BAQ2 {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    /*position: absolute;*/\n    bottom: 10px;\n    left: 0;\n}\n\n.OrderList-module__factorPrice___MD6MP {\n    width: 100%;\n    /*display: flex;*/\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px;\n    box-sizing: border-box;\n}\n\n.OrderList-module__factorPrice___MD6MP p {\n    font-size: 15px;\n    font-weight: bold;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4227,7 +4227,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".ProfileDataModal-module__container___3_V85 {\n  background-color: rgb(255, 218, 108);\n  width: 100%;\n  /*height: 100%;*/\n  border-radius: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n.ProfileDataModal-module__top___3Dy5O {\n  /*height: 20%;*/\n  font-size: 30px;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.ProfileDataModal-module__bottom___kT0CC,\n.ProfileDataModal-module__top___3Dy5O {\n  width: 100%;\n  padding: 10px;\n  box-sizing: border-box;\n}\n.ProfileDataModal-module__bottom___kT0CC {\n  /*height: 80%;*/\n  background-color: white;\n  border-radius: 20px 20px 10px 10px;\n  position: relative;\n}\n.ProfileDataModal-module__buttonContainer___1Bgrz {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  /*position: absolute;*/\n  bottom: 10px;\n  left: 0;\n}\n.ProfileDataModal-module__loading___1iid1 {\n  width: 100%;\n  /*height: 100%;*/\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.ProfileDataModal-module__successOrder___UTFoa {\n  /*height: 100%;*/\n  width: 100%;\n  justify-content: center;\n  align-items: center;\n}\n\n.ProfileDataModal-module__successOrder___UTFoa h4{\n    text-align: center;\n}\n", ""]);
+exports.push([module.i, ".ProfileDataModal-module__container___3_V85 {\n    background-color: rgb(255, 218, 108);\n    width: 100%;\n    /*height: 100%;*/\n    border-radius: 10px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-direction: column;\n}\n\n.ProfileDataModal-module__top___3Dy5O {\n    /*height: 20%;*/\n    font-size: 30px;\n    text-align: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.ProfileDataModal-module__bottom___kT0CC,\n.ProfileDataModal-module__top___3Dy5O {\n    width: 100%;\n    padding: 10px;\n    box-sizing: border-box;\n}\n\n.ProfileDataModal-module__bottom___kT0CC {\n    /*height: 80%;*/\n    background-color: white;\n    border-radius: 20px 20px 10px 10px;\n    position: relative;\n}\n\n.ProfileDataModal-module__buttonContainer___1Bgrz {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    /*position: absolute;*/\n    bottom: 10px;\n    left: 0;\n}\n\n.ProfileDataModal-module__loading___1iid1 {\n    width: 100%;\n    /*height: 100%;*/\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.ProfileDataModal-module__successOrder___UTFoa {\n    /*height: 100%;*/\n    width: 100%;\n    justify-content: center;\n    align-items: center;\n}\n\n.ProfileDataModal-module__successOrder___UTFoa h4 {\n    text-align: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4253,7 +4253,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".SideListItems-module__listItemContainer___ptYy1 {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.SideListItems-module__listItemContainer___ptYy1 img {\n  height: 20px;\n  width: 20px;\n}\n.SideListItems-module__imgContainer___3FN-x {\n  width: 40px;\n  height: 40px;\n  border: 1px solid rgba(94, 91, 91, 0.24);\n  border-radius: 10px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: white;\n  margin: 5px;\n  flex-shrink: 0;\n  flex-grow: 0;\n}\n.SideListItems-module__spanContainer___3LRO5 {\n  text-align: center;\n  font-size: 15px;\n  font-weight: bolder;\n}\n", ""]);
+exports.push([module.i, ".SideListItems-module__listItemContainer___ptYy1 {\n    width: 100%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n}\n\n.SideListItems-module__listItemContainer___ptYy1 img {\n    height: 20px;\n    width: 20px;\n}\n\n.SideListItems-module__imgContainer___3FN-x {\n    width: 40px;\n    height: 40px;\n    border: 1px solid rgba(94, 91, 91, 0.24);\n    border-radius: 10px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n    margin: 5px;\n    flex-shrink: 0;\n    flex-grow: 0;\n}\n\n.SideListItems-module__spanContainer___3LRO5 {\n    text-align: center;\n    font-size: 15px;\n    font-weight: bolder;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4276,7 +4276,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".SlideListItems__active___1-rfQ {\n  background-color: rgb(255, 218, 108);\n  color: white !important;\n  box-shadow: 0px 0px 10px 1px rgba(109, 109, 109, 0.31);\n}\n", ""]);
+exports.push([module.i, ".SlideListItems__active___1-rfQ {\n    background-color: rgb(255, 218, 108);\n    color: white !important;\n    box-shadow: 0px 0px 10px 1px rgba(109, 109, 109, 0.31);\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4297,7 +4297,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Sidebar-module__logo___IbX9W {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  height: 125px;\r\n}\r\n.Sidebar-module__logo___IbX9W img {\r\n  height: 60px;\r\n  width: 60px;\r\n}\r\n", ""]);
+exports.push([module.i, ".Sidebar-module__logo___IbX9W {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 125px;\n}\n\n.Sidebar-module__logo___IbX9W img {\n    height: 60px;\n    width: 60px;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4318,7 +4318,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Menu-module__container___R8o7w {\n  width: 100%;\n  /*height: 100vh;*/\n  display: flex;\n  box-sizing: border-box;\n}\n\n.Menu-module__left___2ioQ6 {\n  width: 70%;\n  background-color: #fafafa;\n  /*height: 100vh;*/\n  overflow: hidden;\n  box-sizing: border-box;\n}\n.Menu-module__right___3SsI_ {\n  width: 30%;\n  background-color: white;\n  /*height: 100vh;*/\n  overflow: hidden;\n  box-sizing: border-box;\n}\n.Menu-module__loading___1xGji {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
+exports.push([module.i, ".Menu-module__container___R8o7w {\n    width: 100%;\n    /*height: 100vh;*/\n    display: flex;\n    box-sizing: border-box;\n}\n\n.Menu-module__left___2ioQ6 {\n    width: 70%;\n    background-color: #fafafa;\n    /*height: 100vh;*/\n    overflow: hidden;\n    box-sizing: border-box;\n}\n\n.Menu-module__right___3SsI_ {\n    width: 30%;\n    background-color: white;\n    /*height: 100vh;*/\n    overflow: hidden;\n    box-sizing: border-box;\n}\n\n.Menu-module__loading___1xGji {\n    width: 100%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4342,7 +4342,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".OrderHistory-module__container____mZwF,\n.OrderHistory-module__orderContainer___2MdJh {\n  width: 100%;\n}\n.OrderHistory-module__container____mZwF {\n  /*height: 100vh;*/\n  overflow: hidden;\n}\n\n.OrderHistory-module__orderContainer___2MdJh {\n  overflow: auto;\n}\n.OrderHistory-module__loading___2HqIU {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n", ""]);
+exports.push([module.i, ".OrderHistory-module__container____mZwF,\n.OrderHistory-module__orderContainer___2MdJh {\n    width: 100%;\n}\n\n.OrderHistory-module__container____mZwF {\n    overflow: hidden;\n}\n\n.OrderHistory-module__orderContainer___2MdJh {\n    overflow: auto;\n}\n\n.OrderHistory-module__loading___2HqIU {\n    width: 100%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -4365,7 +4365,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n", ""]);
+exports.push([module.i, "body {\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n", ""]);
 
 // exports
 
@@ -37946,6 +37946,10 @@ var _Layout = __webpack_require__(/*! ./components/Layout/Layout */ "./resources
 
 var _Layout2 = _interopRequireDefault(_Layout);
 
+var _axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+
+var _axios2 = _interopRequireDefault(_axios);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -37970,21 +37974,52 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 var App = /*#__PURE__*/function (_Component) {
   _inherits(App, _Component);
 
   var _super = _createSuper(App);
 
   function App() {
+    var _this;
+
     _classCallCheck(this, App);
 
-    return _super.apply(this, arguments);
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+
+    _defineProperty(_assertThisInitialized(_this), "state", {
+      deliveryPrice: null
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "componentDidMount", function () {
+      (0, _axios2["default"])({
+        method: "get",
+        url: "https://innoscripta-app.herokuapp.com/api/pre-order"
+      }).then(function (response) {
+        _this.setState({
+          deliveryPrice: response.data.data.delivery_price
+        });
+
+        console.log(response);
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    });
+
+    return _this;
   }
 
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react2["default"].createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react2["default"].createElement(_Layout2["default"], null));
+      return /*#__PURE__*/_react2["default"].createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react2["default"].createElement(_Layout2["default"], {
+        deliveryPrice: this.state.deliveryPrice
+      }));
     }
   }]);
 
@@ -38207,7 +38242,7 @@ var CardOrder = function CardOrder(props) {
     className: _CardOrderModule2["default"].container,
     style: {
       cursor: props.editable ? "pointer" : "not-allowed",
-      border: props.editable ? "2px solid #ffda6c" : "none"
+      border: props.editable ? "1px solid #ffda6c" : "none"
     }
   }, /*#__PURE__*/_react2["default"].createElement("div", {
     className: _CardOrderModule2["default"].image
@@ -38220,7 +38255,7 @@ var CardOrder = function CardOrder(props) {
     style: {
       color: "rgba(94, 91, 91, 0.24)"
     }
-  }, "$ ", props.item.price)), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, "$ ", props.item.price, " ( ", "€" + props.item.price * 0.88, " )")), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _CardOrderModule2["default"].count
   }, /*#__PURE__*/_react2["default"].createElement("p", {
     style: {
@@ -38229,7 +38264,7 @@ var CardOrder = function CardOrder(props) {
     }
   }, "\u2716"), " ", props.item.quantity), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _CardOrderModule2["default"].totalPrice
-  }, "$ ", props.item.quantity * props.item.price));
+  }, "$ ", props.item.quantity * props.item.price, " (", "€" + props.item.quantity * props.item.price * 0.88, " )"));
 };
 
 exports["default"] = CardOrder;
@@ -38299,16 +38334,11 @@ var CardOrderHistory = function CardOrderHistory(props) {
     style: {
       color: "rgba(94, 91, 91, 0.24)"
     }
-  }, "$ ", props.item.price)), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, "$ ", props.item.price, " (", "€" + props.item.price * 0.88, ")")), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _CardOrderHistoryModule2["default"].count
-  }, /*#__PURE__*/_react2["default"].createElement("p", {
-    style: {
-      fontSize: "16px",
-      fontWeight: 100
-    }
-  }, "\u2716"), " ", props.item.quantity), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, props.item.quantity), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _CardOrderHistoryModule2["default"].totalPrice
-  }, "$ ", props.item.quantity * props.item.price));
+  }, "$ ", props.item.quantity * props.item.price, " (", "€" + props.item.quantity * props.item.price * 0.88, ")"));
 };
 
 exports["default"] = CardOrderHistory;
@@ -38559,7 +38589,7 @@ var HistoryItem = function HistoryItem(props) {
     className: _HistoryItemModule2["default"].number
   }, props.item.code), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _HistoryItemModule2["default"].totalPrice
-  }, "$ ", totalPrice), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, "$ ", totalPrice, " (", "€" + totalPrice * 0.88, ")"), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _HistoryItemModule2["default"].date
   }, props.item.created_at));
 };
@@ -38758,14 +38788,24 @@ var _Sidebar2 = _interopRequireDefault(_Sidebar);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var Layout = function Layout() {
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+var Layout = function Layout(props) {
   var routes = /*#__PURE__*/_react2["default"].createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react2["default"].createElement(_reactRouterDom.Route, {
     path: "/",
     exact: true,
-    component: _Menu2["default"]
+    render: function render(prop) {
+      return /*#__PURE__*/_react2["default"].createElement(_Menu2["default"], _extends({}, prop, {
+        deliveryPrice: props.deliveryPrice
+      }));
+    }
   }), /*#__PURE__*/_react2["default"].createElement(_reactRouterDom.Route, {
     path: "/OrderHistory",
-    component: _OrderHistory2["default"]
+    render: function render(prop) {
+      return /*#__PURE__*/_react2["default"].createElement(_OrderHistory2["default"], _extends({}, prop, {
+        deliveryPrice: props.deliveryPrice
+      }));
+    }
   }));
 
   return /*#__PURE__*/_react2["default"].createElement("div", {
@@ -39274,7 +39314,7 @@ var OrderDetailsModal = function OrderDetailsModal(props) {
     className: _OrderDetailsModalModule2["default"].plus
   }, /*#__PURE__*/_react2["default"].createElement("p", null, "-"))), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderDetailsModalModule2["default"].price
-  }, /*#__PURE__*/_react2["default"].createElement("h3", null, "$ ", props.activeOrderItem.price, " "))), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, /*#__PURE__*/_react2["default"].createElement("h3", null, "$ ", props.activeOrderItem.price, " (", "€" + props.activeOrderItem.price * 0.88, ")", " "))), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderDetailsModalModule2["default"].buttonContainer
   }, /*#__PURE__*/_react2["default"].createElement(_Button2["default"], {
     title: props.editMode ? "SAVE CHANGES" : "ADD TO CART",
@@ -39383,11 +39423,11 @@ var OrderHistoryDetailsModal = function OrderHistoryDetailsModal(props) {
     style: {
       fontWeight: "bold"
     }
-  }, "Sub Price :"), " $", " ", props.totalPrice), /*#__PURE__*/_react2["default"].createElement("p", null, /*#__PURE__*/_react2["default"].createElement("span", {
+  }, "Sub Price :"), " $", " ", props.totalPrice, " (", "€" + props.totalPrice * 0.88, ")"), /*#__PURE__*/_react2["default"].createElement("p", null, /*#__PURE__*/_react2["default"].createElement("span", {
     style: {
       fontWeight: "bold"
     }
-  }, "Delivery Price :"), " $", " ", props.deliveryPrice)), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, "Delivery Price :"), " $", " ", props.deliveryPrice, " (", "€" + props.deliveryPrice * 0.88, ")")), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderHistoryDetailsModalModule2["default"].buttonContainer
   }, /*#__PURE__*/_react2["default"].createElement(_Button2["default"], {
     title: "OK",
@@ -39469,7 +39509,7 @@ var OrderItems = function OrderItems(props) {
     className: _OrderItemsModule2["default"].name
   }, props.item.name), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderItemsModule2["default"].price
-  }, "$", props.item.price));
+  }, "$", props.item.price, " (", "€" + props.item.price * 0.88, ")"));
 };
 
 exports["default"] = OrderItems;
@@ -39574,11 +39614,15 @@ var OrderList = function OrderList(props) {
     className: _OrderListModule2["default"].cardsContainer
   }, orders), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderListModule2["default"].factorPrice
-  }, /*#__PURE__*/_react2["default"].createElement("p", {
+  }, /*#__PURE__*/_react2["default"].createElement("div", {
     style: {
-      color: "rgba(94, 91, 91, 0.24)"
+      marginBottom: "15px"
     }
-  }, "SUB TOTAL :"), /*#__PURE__*/_react2["default"].createElement("p", null, "$ ", totalPrice)), /*#__PURE__*/_react2["default"].createElement("div", {
+  }, /*#__PURE__*/_react2["default"].createElement("span", null, "SUB TOTAL :"), /*#__PURE__*/_react2["default"].createElement("span", null, "$ ", totalPrice, " (", "€" + totalPrice * 0.88, ")")), /*#__PURE__*/_react2["default"].createElement("div", {
+    style: {
+      marginBottom: "15px"
+    }
+  }, /*#__PURE__*/_react2["default"].createElement("span", null, "Delivery Price :"), /*#__PURE__*/_react2["default"].createElement("span", null, "$ ", props.deliveryPrice)), /*#__PURE__*/_react2["default"].createElement("div", null, /*#__PURE__*/_react2["default"].createElement("span", null, "Total Price :"), /*#__PURE__*/_react2["default"].createElement("span", null, totalPrice > 0 ? " $" + (+totalPrice + +props.deliveryPrice) : "$0"))), /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderListModule2["default"].buttonContainer
   }, /*#__PURE__*/_react2["default"].createElement(_Button2["default"], {
     onClick: props.onOrderListNextClick,
@@ -40285,8 +40329,6 @@ var Menu = /*#__PURE__*/function (_Component) {
           errors: error.response.data.message,
           profileModalLoading: false
         });
-
-        console.log(error.response.data.message);
       });
     });
 
@@ -40330,7 +40372,8 @@ var Menu = /*#__PURE__*/function (_Component) {
         orders: this.state.orders.filter(function (order) {
           return order.quantity > 0;
         }),
-        editable: this.state.editable
+        editable: this.state.editable,
+        deliveryPrice: this.props.deliveryPrice
       })), /*#__PURE__*/_react2["default"].createElement(_OrderDetailsModal2["default"], {
         editMode: this.state.editMode,
         onMinusClick: this.onMinusClickHandler,
@@ -40580,7 +40623,8 @@ var OrderHistory = /*#__PURE__*/function (_Component) {
         totalPrice: this.state.totalPrice,
         orders: this.state.acitveItem && this.state.acitveItem,
         show: this.state.showOrderHistoryDetailsModal,
-        close: this.onCloseOrderHistoryDetailsModalHandler
+        close: this.onCloseOrderHistoryDetailsModalHandler,
+        deliveryPrice: this.props.deliveryPrice
       }));
     }
   }]);
