@@ -3,7 +3,7 @@ import classes from "./OrderItems.module.css";
 
 const OrderItems = (props) => {
     return (
-        <div
+        <div data-testid="orderItems"
             onClick={() => props.onOrderClick(props.item)}
             className={classes.container}
         >

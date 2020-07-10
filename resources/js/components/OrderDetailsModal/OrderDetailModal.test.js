@@ -11,17 +11,18 @@ import OrderDetailsModal from "./OrderDetailsModal";
 
 describe('Test orderItems component', () => {
 
-    it('render without crashing', () => {
+    it('orderDetailModal should render without crashing', () => {
 
         let item = {
             avatar: 'avatar.test',
             name: 'name',
             price: 'price',
-            id: 1
+            id: 1,
+            ingredients: JSON.stringify(['test1', 'test2'])
         };
-        let wrapper = shallow(<OrderDetailsModal onOrderClick={() => function (id) {
-        }} item={item}/>);
-        expect(wrapper.find("[data-testid='orderItems']")).toHaveLength(1);
+        let wrapper = shallow(<OrderDetailsModal activeOrderItem={item} show={true} item={item}/>);
+
+        expect(wrapper.find("[data-testid='orderDetailsModal']")).toHaveLength(1);
     });
 
 });

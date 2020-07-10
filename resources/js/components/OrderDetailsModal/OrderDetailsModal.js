@@ -10,10 +10,9 @@ const OrderDetailsModal = (props) => {
     return (
         <Modal width={"50%"} padding={"0"} show={props.show} close={props.close}>
             {props.activeOrderItem && (
-                <div className={classes.container}>
+                <div data-testid="orderDetailsModal" className={classes.container}>
                     <div className={classes.top}>
                         <h3>{props.activeOrderItem.name}</h3>
-
                         <p>{props.activeOrderItem.description}</p>
                     </div>
                     <div className={classes.bottom}>

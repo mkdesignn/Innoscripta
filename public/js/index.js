@@ -38169,6 +38169,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var Button = function Button(props) {
   return /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "button",
     onClick: props.onClick,
     style: {
       width: props.width
@@ -38237,6 +38238,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var CardOrder = function CardOrder(props) {
   return /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "cardOrder",
     onClick: function onClick() {
       return props.onCardOrderClick(props.item);
     },
@@ -38328,6 +38330,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var CardOrderHistory = function CardOrderHistory(props) {
   return /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "cardOrderHistory",
     className: _CardOrderHistoryModule2["default"].container
   }, /*#__PURE__*/_react2["default"].createElement("div", {
     className: _CardOrderHistoryModule2["default"].title
@@ -38402,6 +38405,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var CategoryItems = function CategoryItems(props) {
   return /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "CategoryItems",
     onClick: function onClick(id) {
       return props.onCatClick(props.item.id);
     },
@@ -38497,14 +38501,17 @@ var ChooseOrder = function ChooseOrder(props) {
     });
   });
   return /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "ChooseOrder",
     className: _ChooseOrderModule2["default"].container
   }, /*#__PURE__*/_react2["default"].createElement("p", null, /*#__PURE__*/_react2["default"].createElement("span", {
     style: {
       fontWeight: "700"
     }
   }, "Choose"), " Order"), !props.orderLoading ? /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "orders",
     className: _ChooseOrderModule2["default"].orderItemsContainer
   }, orders) : /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "loader-wrapper",
     className: _ChooseOrderModule2["default"].loading
   }, /*#__PURE__*/_react2["default"].createElement(_ClipLoader2["default"] // css={override}
   , {
@@ -38582,6 +38589,7 @@ var HistoryItem = function HistoryItem(props) {
   }
 
   return /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "HistoryItem",
     onClick: function onClick() {
       return props.onHistoryClick(props.item);
     },
@@ -38655,6 +38663,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var HistoryItem = function HistoryItem() {
   return /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "historyItem",
     className: _HistoryItemModule2["default"].headerContainer
   }, /*#__PURE__*/_react2["default"].createElement("div", {
     className: _HistoryItemModule2["default"].number
@@ -39285,6 +39294,7 @@ var OrderDetailsModal = function OrderDetailsModal(props) {
     show: props.show,
     close: props.close
   }, props.activeOrderItem && /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "orderDetailsModal",
     className: _OrderDetailsModalModule2["default"].container
   }, /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderDetailsModalModule2["default"].top
@@ -39407,6 +39417,7 @@ var OrderHistoryDetailsModal = function OrderHistoryDetailsModal(props) {
     show: props.show,
     close: props.close
   }, /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "OrderHistoryDetailsModal",
     className: _OrderHistoryDetailsModalModule2["default"].all
   }, /*#__PURE__*/_react2["default"].createElement("div", {
     className: _OrderHistoryDetailsModalModule2["default"].top
@@ -39497,6 +39508,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var OrderItems = function OrderItems(props) {
   return /*#__PURE__*/_react2["default"].createElement("div", {
+    "data-testid": "orderItems",
     onClick: function onClick() {
       return props.onOrderClick(props.item);
     },

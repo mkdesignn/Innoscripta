@@ -3,7 +3,7 @@ import classes from "./CardOrder.module.css";
 
 const CardOrder = (props) => {
     return (
-        <div
+        <div data-testid="cardOrder"
             onClick={() => props.onCardOrderClick(props.item)}
             className={classes.container}
             style={{

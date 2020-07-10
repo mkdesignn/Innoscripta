@@ -10,14 +10,14 @@ const ChooseOrder = (props) => {
             <OrderItems onOrderClick={props.onOrderClick} key={item.id} item={item}/>
         ));
     return (
-        <div className={classes.container}>
+        <div data-testid="ChooseOrder" className={classes.container}>
             <p>
                 <span style={{fontWeight: "700"}}>Choose</span> Order
             </p>
             {!props.orderLoading ? (
-                <div className={classes.orderItemsContainer}>{orders}</div>
+                <div data-testid="orders" className={classes.orderItemsContainer}>{orders}</div>
             ) : (
-                <div className={classes.loading}>
+                <div data-testid="loader-wrapper" className={classes.loading}>
                     <ClipLoader
                         // css={override}
                         sizeUnit={"px"}

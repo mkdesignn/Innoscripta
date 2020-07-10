@@ -3,7 +3,7 @@ import classes from "./CardOrderHistory.module.css";
 
 const CardOrderHistory = (props) => {
     return (
-        <div className={classes.container}>
+        <div data-testid="cardOrderHistory" className={classes.container}>
             <div className={classes.title}>
                 <p>{props.item.product_name}</p>
                 <p style={{color: "rgba(94, 91, 91, 0.24)"}}>

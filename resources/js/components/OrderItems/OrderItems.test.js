@@ -11,7 +11,7 @@ import OrderItems from "./OrderItems";
 
 describe('Test orderItems component', () => {
 
-    it('render without crashing', () => {
+    it('orderItem should render without crashing', () => {
 
         let item = {
             avatar: 'avatar.test',

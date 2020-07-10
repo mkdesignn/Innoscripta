@@ -12,7 +12,7 @@ const OrderHistoryDetailsModal = (props) => {
         ));
     return (
         <Modal width={"50%"} padding={"0"} show={props.show} close={props.close}>
-            <div className={classes.all}>
+            <div data-testid="OrderHistoryDetailsModal" className={classes.all}>
                 <div className={classes.top}>
                     <div className={classes.number}>
                         Order Code: {props.orders && props.orders.code}

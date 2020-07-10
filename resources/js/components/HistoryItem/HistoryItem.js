@@ -9,6 +9,7 @@ const HistoryItem = (props) => {
     }
     return (
         <div
+            data-testid="HistoryItem"
             onClick={() => props.onHistoryClick(props.item)}
             className={classes.container}
         >

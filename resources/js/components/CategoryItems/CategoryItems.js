@@ -4,6 +4,7 @@ import classes from "./CategoryItems.module.css";
 const CategoryItems = (props) => {
     return (
         <div
+            data-testid="CategoryItems"
             onClick={(id) => props.onCatClick(props.item.id)}
             style={{background: props.activeId !== props.item.id ? "white" : "#FFDA6C"}}
             className={classes.container}
