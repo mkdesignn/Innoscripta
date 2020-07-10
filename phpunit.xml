@@ -17,6 +17,10 @@
             <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
     </testsuites>
+    <logging>
+        <!-- and this is where your report will be written -->
+        <log type="coverage-clover" target="./clover.xml"/>
+    </logging>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">./app</directory>
