@@ -32,6 +32,8 @@
 .bottom p {
     line-height: 1.4;
     margin-top: 25px;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .bottom {
@@ -69,6 +71,7 @@
 
 .bottomHeader span {
     font-weight: 600;
+    font-size: 12px;
 }
 
 .bottomFooter {
@@ -78,13 +81,14 @@
     align-items: center;
     padding: 10px;
     position: absolute;
-    bottom: 80px;
+    bottom: 100px;
     left: 0;
     box-sizing: border-box;
 }
 
 .bottomFooter h3 {
     margin: 0;
+    color: rgb(128, 128, 128);
 }
 
 .count,
@@ -122,13 +126,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
+    color: rgb(50, 50, 50);
 }
 
 .plus p {
-    font-size: 30px;
-    /*height: 25px;*/
+    font-size: 24px;
+    /* height: 25px; */
     line-height: 0;
-    color: white;
+    color: rgb(25, 25, 25);
     font-weight: 700;
     text-align: center;
     user-select: none;

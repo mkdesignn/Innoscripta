@@ -7,7 +7,7 @@ import {configure, shallow} from "enzyme";
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({adapter: new Adapter()});
-import OrderItems from "./OrderItems";
+import OrderDetailsModal from "./OrderDetailsModal";
 
 describe('Test orderItems component', () => {
 
@@ -19,7 +19,7 @@ describe('Test orderItems component', () => {
             price: 'price',
             id: 1
         };
-        let wrapper = shallow(<OrderItems onOrderClick={() => function (id) {
+        let wrapper = shallow(<OrderDetailsModal onOrderClick={() => function (id) {
         }} item={item}/>);
         expect(wrapper.find("[data-testid='orderItems']")).toHaveLength(1);
     });

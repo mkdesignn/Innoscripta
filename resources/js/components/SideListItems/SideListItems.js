@@ -6,7 +6,7 @@ import "./SlideListItems.css";
 const SideListItems = (props) => {
     return (
         <NavLink to={props.Link} exact={props.exact}>
-            <div className={classes.listItemContainer} style={props.style}>
+            <div data-testid="navLink" className={classes.listItemContainer} style={props.style}>
                 <div className={classes.imgContainer}>
                     <img src={props.imgName} alt=""/>
                 </div>

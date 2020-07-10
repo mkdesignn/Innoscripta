@@ -8,17 +8,33 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
 
 import OrderList from "./OrderList";
+describe('test orderList', () => {
 
-it('render without crashing', () => {
+    let orderData = [{price: 100, quantity: 1, id: 1}];
 
-    const div = document.createElement('div');
-    ReactDom.render(<OrderList/>, div);
+    it('orderList should be visible', () => {
+
+        const wrapper = shallow(<OrderList orders={orderData}/>);
+        expect(wrapper.find("[data-testid='orderList']")).toHaveLength(1);
+    });
+
+    it('orderList should be visible', () => {
+
+        const wrapper = shallow(<OrderList orders={orderData}/>);
+        expect(wrapper.find("[data-testid='orderList']")).toHaveLength(1);
+    });
+
+    it('totalPrice should be visible and correct', () => {
+
+        const wrapper = shallow(<OrderList orders={orderData} deliveryPrice="10"/>);
+        expect(wrapper.find("[data-testid='orderList']").html()).toContain('<span>Total Price :</span><span> $110</span>');
+    });
+
+    it('totalPrice should be zero if no product selected', () => {
+
+        const wrapper = shallow(<OrderList orders={[]} deliveryPrice="10"/>);
+        expect(wrapper.find("[data-testid='orderList']").html()).toContain('<span>Total Price :</span><span>$0</span>');
+    });
+
 });
-
-
-it('should be visible', () => {
-    const wrapper = shallow(<OrderList/>);
-    expect(wrapper.find('div')).toHaveLength(1);
-});
-
 

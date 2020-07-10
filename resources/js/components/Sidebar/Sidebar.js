@@ -8,7 +8,7 @@ import History from "../../Assets/history.png";
 
 const Sidebar = () => {
     return (
-        <div>
+        <div data-testid="Sidebar">
             <div className={classes.logo}>
                 <img src={Logo} alt={"logo"}/>
             </div>

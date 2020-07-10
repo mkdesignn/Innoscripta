@@ -13,7 +13,7 @@ const ProfileDataModal = (props) => {
             show={props.show}
             close={props.close}
         >
-            <div className={classes.container}>
+            <div data-testid="ProfileDataModel" className={classes.container}>
                 <div className={classes.top}>
                     <div className={classes.header}>
                         <h5 style={{"display": props.succsessOrder ? 'none' : ''}}>Fill the form below to continue</h5>
@@ -23,7 +23,7 @@ const ProfileDataModal = (props) => {
                     {!props.loading ? (
                         !props.succsessOrder ? (
                             props.errors && props.errors.length > 0 ? (
-                                <div className={classes.successOrder}>
+                                <div data-testid="rejectedOrderWrapper" className={classes.successOrder}>
                                     <h4>{props.errors}</h4>
                                     <div className={classes.buttonContainer}>
                                         <Button
@@ -66,7 +66,7 @@ const ProfileDataModal = (props) => {
                                 </>
                             )
                         ) : (
-                            <div className={classes.successOrder}>
+                            <div data-testid="successOrderWrapper" className={classes.successOrder}>
                                 <h4>Your order has been completed successfully, order code: {props.data.code}</h4>
                                 <div className={classes.buttonContainer}>
                                     <Button title={"OK"} onClick={props.close} width={"30%"}/>
@@ -74,7 +74,7 @@ const ProfileDataModal = (props) => {
                             </div>
                         )
                     ) : (
-                        <div className={classes.loading}>
+                        <div data-testid="ClipLoaderWrapper" className={classes.loading}>
                             <ClipLoader
                                 sizeUnit={"px"}
                                 size={50}

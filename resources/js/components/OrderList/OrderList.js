@@ -21,7 +21,7 @@ const OrderList = (props) => {
         totalPrice += ordersData[i].price * ordersData[i].quantity;
     }
     return (
-        <div className={classes.container}>
+        <div data-testid="orderList" className={classes.container}>
             <div className={classes.header}>
                 <p>
                     <span style={{fontWeight: "700"}}>Orders</span> List
@@ -32,7 +32,7 @@ const OrderList = (props) => {
             <div className={classes.cardsContainer}>{orders}</div>
             <div className={classes.factorPrice}>
                 <div style={{marginBottom: "15px"}}>
-                    <span>SUB TOTAL :</span>
+                    <span>Sub Total :</span>
                     <span>$ {totalPrice} ({"€" + totalPrice * 0.88})</span>
                 </div>
                 <div style={{marginBottom: "15px"}}>
