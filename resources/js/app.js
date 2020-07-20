@@ -10,7 +10,7 @@ class App extends Component {
     componentDidMount = () => {
         axios({
             method: "get",
-            url: `https://innoscripta-app.herokuapp.com/api/pre-order`,
+            url: `https://innoscriptaa.herokuapp.com/api/pre-order`,
         })
             .then((response) => {
                 this.setState({deliveryPrice: response.data.data.delivery_price});

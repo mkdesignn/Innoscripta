@@ -18,7 +18,7 @@ class OrderHistory extends Component {
         this.setState({loading: true});
         axios({
             method: "get",
-            url: `https://innoscripta-app.herokuapp.com/api/orders?size=100&page=0`,
+            url: `https://innoscriptaa.herokuapp.com/api/orders?size=100&page=0`,
         })
             .then((respnse) => {
                 this.setState({orderHistory: respnse.data.data, loading: false});

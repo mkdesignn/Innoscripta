@@ -36,13 +36,13 @@ class Menu extends Component {
 
         axios({
             method: "get",
-            url: "https://innoscripta-app.herokuapp.com/api/categories",
+            url: "https://innoscriptaa.herokuapp.com/api/categories",
         })
             .then((respnse) => {
                 this.setState({catData: respnse.data.data}, () => {
                     axios({
                         method: "get",
-                        url: `https://innoscripta-app.herokuapp.com/api/products?category=${this.state.activeId}&size=10&page=0`,
+                        url: `https://innoscriptaa.herokuapp.com/api/products?category=${this.state.activeId}&size=10&page=0`,
                     })
                         .then((respnse) => {
                             this.setState({orderData: respnse.data.data, loading: false});
@@ -59,7 +59,7 @@ class Menu extends Component {
         this.setState({activeId: id, orderLoading: true}, () => {
             axios({
                 method: "get",
-                url: `https://innoscripta-app.herokuapp.com/api/products?category=${id}&size=10&page=0`,
+                url: `https://innoscriptaa.herokuapp.com/api/products?category=${id}&size=10&page=0`,
             })
                 .then((respnse) => {
                     this.setState({orderData: respnse.data.data, orderLoading: false});
@@ -190,7 +190,7 @@ class Menu extends Component {
         this.setState({profileModalLoading: true});
         axios({
             method: "post",
-            url: `https://innoscripta-app.herokuapp.com/api/orders`,
+            url: `https://innoscriptaa.herokuapp.com/api/orders`,
             data: {
                 customer_address: this.state.address,
                 customer_name: this.state.name,

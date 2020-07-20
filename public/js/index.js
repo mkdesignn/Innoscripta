@@ -38000,7 +38000,7 @@ var App = /*#__PURE__*/function (_Component) {
     _defineProperty(_assertThisInitialized(_this), "componentDidMount", function () {
       (0, _axios2["default"])({
         method: "get",
-        url: "https://innoscripta-app.herokuapp.com/api/pre-order"
+        url: "https://innoscriptaa.herokuapp.com/api/pre-order"
       }).then(function (response) {
         _this.setState({
           deliveryPrice: response.data.data.delivery_price
@@ -40169,14 +40169,14 @@ var Menu = /*#__PURE__*/function (_Component) {
     _defineProperty(_assertThisInitialized(_this), "componentDidMount", function () {
       (0, _axios2["default"])({
         method: "get",
-        url: "https://innoscripta-app.herokuapp.com/api/categories"
+        url: "https://innoscriptaa.herokuapp.com/api/categories"
       }).then(function (respnse) {
         _this.setState({
           catData: respnse.data.data
         }, function () {
           (0, _axios2["default"])({
             method: "get",
-            url: "https://innoscripta-app.herokuapp.com/api/products?category=".concat(_this.state.activeId, "&size=10&page=0")
+            url: "https://innoscriptaa.herokuapp.com/api/products?category=".concat(_this.state.activeId, "&size=10&page=0")
           }).then(function (respnse) {
             _this.setState({
               orderData: respnse.data.data,
@@ -40201,7 +40201,7 @@ var Menu = /*#__PURE__*/function (_Component) {
       }, function () {
         (0, _axios2["default"])({
           method: "get",
-          url: "https://innoscripta-app.herokuapp.com/api/products?category=".concat(id, "&size=10&page=0")
+          url: "https://innoscriptaa.herokuapp.com/api/products?category=".concat(id, "&size=10&page=0")
         }).then(function (respnse) {
           _this.setState({
             orderData: respnse.data.data,
@@ -40332,7 +40332,7 @@ var Menu = /*#__PURE__*/function (_Component) {
 
       (0, _axios2["default"])({
         method: "post",
-        url: "https://innoscripta-app.herokuapp.com/api/orders",
+        url: "https://innoscriptaa.herokuapp.com/api/orders",
         data: {
           customer_address: _this.state.address,
           customer_name: _this.state.name,
@@ -40568,7 +40568,7 @@ var OrderHistory = /*#__PURE__*/function (_Component) {
 
       (0, _axios2["default"])({
         method: "get",
-        url: "https://innoscripta-app.herokuapp.com/api/orders?size=100&page=0"
+        url: "https://innoscriptaa.herokuapp.com/api/orders?size=100&page=0"
       }).then(function (respnse) {
         _this.setState({
           orderHistory: respnse.data.data,
