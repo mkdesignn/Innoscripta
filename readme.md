@@ -14,7 +14,7 @@ php artisan db:seed
 
 **I'm using Mysql for the development and sqlite for the tests, But you can freely change the drivers to any driver laravel supports**
 
-If you want to access to all of the endpoints you can visit [https://innoscripta-app.herokuapp.com/api/documentation](swagger-api)
+If you want to access to all of the endpoints you can visit [https://innoscriptaa.herokuapp.com/api/documentation](swagger-api)
 
 
 If you want to run the BE server then you can run 
