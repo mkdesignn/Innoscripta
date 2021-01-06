@@ -23,7 +23,7 @@
         "enzyme-adapter-react-16": "^1.15.2"
     },
     "dependencies": {
-        "axios": "^0.18",
+        "axios": "^0.21",
         "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
         "bootstrap": "^4.0.0",
         "cross-env": "^5.1",
